@@ -1,0 +1,31 @@
+{
+  "name": "fy21-revised-budget-viz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.4.4",
+    "d3": "^5.15.0",
+    "d3-array": "^2.7.1",
+    "d3-tip": "^0.9.1",
+    "pretty-checkbox": "^3.0.3",
+    "vue": "^2.6.12",
+    "vue-good-table": "^2.21.0",
+    "vue-router": "^3.4.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.6",
+    "@vue/cli-plugin-eslint": "^4.5.6",
+    "@vue/cli-plugin-vuex": "^4.5.6",
+    "@vue/cli-service": "^4.5.6",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "html-loader": "^0.5.5",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
