@@ -102,14 +102,20 @@ def write_data(start_year, kind):
         how="left",
     )
 
-    # Save
-    out_path = (
-        DATA_DIR
-        / "processed"
-        / f"FYP{get_fy_tag(start_year)}{get_fy_tag(start_year+4)}-{kind}-by-major-class.json"
+    # Save data
+    filename = (
+        f"FYP{get_fy_tag(start_year)}{get_fy_tag(start_year+4)}-{kind}-by-major-class"
     )
-    data.drop(labels=["Code"], axis=1).to_json(out_path, orient="records")
-    shutil.copy(out_path, Path("../src/data") / out_path.name)
+    out_dir = DATA_DIR / "processed"
+    json_path = out_dir / (filename + ".json")
+    csv_path = out_dir / (filename + ".csv")
+
+    # Save JSON and CSV
+    data.drop(labels=["Code"], axis=1).to_json(json_path, orient="records")
+    data.drop(labels=["Code"], axis=1).to_csv(csv_path, index=False)
+
+    # Copy JSON file
+    shutil.copy(json_path, Path("../src/data") / json_path.name)
 
 
 if __name__ == "__main__":
