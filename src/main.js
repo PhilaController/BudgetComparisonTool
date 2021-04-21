@@ -14,7 +14,7 @@ audit_content.html(`<div id="app"></div>`);
 function add_data_buttons() {
 
   // spending button
-  let spending_url = "https://raw.githubusercontent.com/PhiladelphiaController/BudgetComparisonTool/main/src/data/processed/FYP2226-proposed-by-major-class.csv";
+  let spending_url = "https://raw.githubusercontent.com/PhiladelphiaController/BudgetComparisonTool/main/analysis/data/processed/FYP2226-proposed-by-major-class.csv";
   let spending_btn = `<a href="${spending_url}" class="btn btn-primary btn-block btn-block">
             <i class="fas fa-download"></i>
             Download Budget Data
