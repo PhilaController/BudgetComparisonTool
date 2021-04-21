@@ -1,11 +1,10 @@
-# Visualizing the Revised FY20 - FY25 Budget
+# Visualizing the Proposed FY22 Budget
 
-The code behind the interactive visualization of Philadelphia's revised FY20-FY25 budget, released May 1, 2020. 
+The code behind the interactive visualization of Philadelphia's proposed FY22 budget, released April 15, 2021. 
 
-Explore the interactive visualization on the [here](http://phlcontroller.staging.wpengine.com/philadelphia-audits/fy21-fy25-budget-revisions/).
+Explore the interactive visualization on the [here](http://controller.phila.gov/philadelphia-audits/the-proposed-fy22-budget/).
 
-![FY21 Spending Changes](public/spending.png)
-![FY21 Revenue Changes](public/revenue.png)
+![FY22 Spending Changes](public/budget-tool-long.gif)
 
 ## Tools
 
@@ -16,15 +15,15 @@ The application is built using a combination of open-source tools, including
 
 ### Project setup
 ```
-npm install
+yarn install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+yarn run serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+yarn run build
 ```
