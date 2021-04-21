@@ -2,7 +2,7 @@
 
 The code behind the interactive visualization of Philadelphia's proposed FY22 budget, released April 15, 2021. 
 
-Explore the interactive visualization on the [here](http://controller.phila.gov/philadelphia-audits/the-proposed-fy22-budget/).
+Explore the interactive visualization [here](http://controller.phila.gov/philadelphia-audits/the-proposed-fy22-budget/).
 
 ![FY22 Spending Changes](public/budget-tool-long.gif)
 

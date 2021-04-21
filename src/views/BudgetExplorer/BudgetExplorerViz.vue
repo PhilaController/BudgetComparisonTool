@@ -1,15 +1,35 @@
 <template>
   <div>
-    <!-- Bubbles -->
+    <!-- Visualization -->
     <div>
-      <Legend
-        :colorScale="fillColorScale"
-        :radiusScale="radiusScale"
-        :sizes="legendConfig.sizes"
-        :label="legendConfig.label"
-        class="viz-legend pb-3"
-      />
-      <div :class="vizClass" class="mt-3"></div>
+      <div class="viz-guide d-flex justify-content-around">
+        <Legend
+          :colorScale="fillColorScale"
+          :radiusScale="radiusScale"
+          :sizes="legendConfig.sizes"
+          :label="legendConfig.label"
+          class="viz-legend pb-3"
+        />
+        <ViewingOptions
+          :allowedViewingOptions="viewingOptions"
+          :comparisonFiscalYears="comparisonFiscalYears"
+          @update-fiscal-year="updateFiscalYear"
+          @update-viewing-option="updateViewingOption"
+        />
+      </div>
+
+      <!-- The total change -->
+      <div
+        class="total-change text-center mt-5 pb-3 d-flex justify-content-center flex-column"
+      >
+        <div>Total Spending Change:</div>
+        <div class="total-change-number">
+          {{ formattedTotalChange }} ({{ formattedPercentTotalChange }})
+        </div>
+      </div>
+
+      <!-- Bubbles -->
+      <div :class="vizClass" class="mt-1"></div>
     </div>
 
     <!-- Table -->
@@ -39,6 +59,7 @@
 
 <script>
 import Legend from "./Legend";
+import ViewingOptions from "./ViewingOptions";
 import { formatFn, netChangeFormatFn, percentFn } from "@/utils/formatFns";
 import * as d3 from "d3";
 import d3Tip from "d3-tip";
@@ -54,9 +75,9 @@ export default {
   props: [
     "width",
     "currentFiscalYear",
-    "selectedComparisonFiscalYear",
+    "comparisonFiscalYears",
     "budgetType",
-    "viewingMode",
+    "viewingOptions",
     "rawData",
     "viewingConfig",
     "legendConfig",
@@ -64,10 +85,14 @@ export default {
     "annotationLabels",
     "vizClass",
   ],
-  components: { Legend, VueGoodTable },
+  components: { Legend, VueGoodTable, ViewingOptions },
   data() {
     return {
       margin: { top: 10, right: 5, bottom: 10, left: 5 },
+
+      // Viewing options
+      selectedComparisonFiscalYear: this.comparisonFiscalYears[0],
+      viewingMode: this.viewingOptions[0],
 
       // Components of the viz
       radiusScale: null,
@@ -89,6 +114,9 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
+      // Update main color
+      this.updateTotalChangeColor();
+
       // Initialize tooltip
       this.tooltip = d3Tip().attr("class", "tooltip");
 
@@ -144,6 +172,23 @@ export default {
     });
   },
   computed: {
+    formattedTotalChange() {
+      return netChangeFormatFn(this.totalChange);
+    },
+    formattedPercentTotalChange() {
+      let out = percentFn(this.percentTotalChange);
+      if (this.percentTotalChange > 0) out = "+" + out;
+      return out;
+    },
+    totalChange() {
+      let col_new = `${this.currentFiscalYear} (${this.budgetType})`;
+      let col_old = `${this.selectedComparisonFiscalYear} (Adopted)`;
+      return d3.sum(this.rawData, (d) => d[col_new] - d[col_old]);
+    },
+    percentTotalChange() {
+      let col_old = `${this.selectedComparisonFiscalYear} (Adopted)`;
+      return this.totalChange / d3.sum(this.rawData, (d) => d[col_old]);
+    },
     showAnnotations() {
       return window.screen.width >= 1000;
     },
@@ -360,6 +405,22 @@ export default {
     },
   },
   methods: {
+    updateTotalChangeColor() {
+      // Green or red?
+      if (this.totalChange > 0) {
+        $(".total-change-number").addClass("green").removeClass("red");
+      } else {
+        $(".total-change-number").addClass("red").removeClass("green");
+      }
+    },
+    updateViewingOption(value) {
+      if (value == null) value = "All Changes";
+      this.viewingMode = value;
+    },
+    updateFiscalYear(value) {
+      this.selectedComparisonFiscalYear = value;
+      this.updateTotalChangeColor();
+    },
     isEmptyLineItem(d) {
       let col_new = `${this.currentFiscalYear} (${this.budgetType})`;
       let col_old = `${this.selectedComparisonFiscalYear} (Adopted)`;
@@ -778,7 +839,6 @@ export default {
         !this.addAnnotations &&
         this.forceSim.alpha() < 0.9
       ) {
-        console.log("HEY");
         this.addAnnotations = true;
         let xcoords = [],
           ycoords = [];
@@ -1071,8 +1131,18 @@ export default {
 </script>
 
 <style>
-.viz-legend {
+.total-change {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.viz-guide {
   border-bottom: 2px solid #deedfc;
+}
+.green {
+  color: #398649;
+}
+.red {
+  color: #da3b46;
 }
 /* tooltip */
 .tooltip-line {
@@ -1151,6 +1221,11 @@ export default {
     padding: 5px;
     width: 250px;
     font-size: 0.8rem !important;
+  }
+
+  .viz-guide {
+    flex-direction: column;
+    justify-content: center;
   }
 }
 </style>

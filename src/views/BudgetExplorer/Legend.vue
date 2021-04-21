@@ -1,10 +1,11 @@
 <template>
-  <div class="legend-wrapper d-flex justify-content-center">
+  <div class="legend-wrapper d-flex justify-content-start flex-column">
+    <div class="title">Visualization Guide</div>
     <!-- Color key -->
-    <div class="color-key-wrapper d-flex flex-column">
+    <div class="color-key-wrapper d-flex flex-column mt-3">
       <div class="legend-title d-flex justify-content-center mb-2">
         <div>
-          <span class="font-weight-bold">Bubble color</span> shows the
+          <span class="font-weight-bold">Circle color</span> shows the
           <span class="font-weight-bold">percentage change</span>
           in {{ label }}.
         </div>
@@ -12,15 +13,20 @@
       <ColorKey :colorScale="colorScale" :width="width" height="50" />
     </div>
     <!-- Radius key -->
-    <div class="radius-key-wrapper d-flex flex-column">
+    <div class="radius-key-wrapper d-flex flex-column mt-5">
       <div class="legend-title d-flex flex-row justify-content-center">
         <div>
-          <span class="font-weight-bold">Bubble size</span> shows the
+          <span class="font-weight-bold">Circle size</span> shows the
           <span class="font-weight-bold">dollar change</span>
           in {{ label }}.
         </div>
       </div>
-      <RadiusKey :radiusScale="radiusScale" :width="width" :sizes="sizes" :height="radiusHeight" />
+      <RadiusKey
+        :radiusScale="radiusScale"
+        :width="width"
+        :sizes="sizes"
+        :height="radiusHeight"
+      />
     </div>
   </div>
 </template>
@@ -42,15 +48,15 @@ export default {
     },
     radiusHeight() {
       return window.screen.width > 768 ? 110 : 75;
-    }
-  }
+    },
+  },
 };
 </script>
 
 <style>
 .color-key-wrapper,
 .radius-key-wrapper {
-  max-width: 500px !important;
+  max-width: 600px !important;
 }
 .color-key-wrapper {
   margin-right: 10px;
@@ -60,6 +66,7 @@ export default {
 }
 .legend-wrapper {
   font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 @media screen and (max-width: 1024px) {
@@ -76,5 +83,10 @@ export default {
   .radius-key-wrapper {
     margin-left: 0px;
   }
+}
+.legend-wrapper .title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2c3e50;
 }
 </style>

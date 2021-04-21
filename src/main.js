@@ -2,13 +2,9 @@ import "core-js/stable";
 import Vue from "vue";
 import App from "@/App";
 import router from "@/router";
+import vuetify from '@/plugins/vuetify' // path to vuetify export
 
-// make FA does not watch SVG elements
-// IMPORTANT: make sure FA does not watch SVG elements
-if (window.FontAwesome) {
-  window.FontAwesome.config.observeMutations = false;
-  window.FontAwesome.config.searchPseudoElements = false;
-}
+
 Vue.config.productionTip = false;
 
 // load and set the HTML template we are using
@@ -21,7 +17,7 @@ function add_data_buttons() {
   let spending_url = "https://raw.githubusercontent.com/PhiladelphiaController/RevisedBudgetFY20-FY25/master/src/data/budget_revisions_by_major_class.csv";
   let spending_btn = `<a href="${spending_url}" class="btn btn-primary btn-block btn-block">
             <i class="fas fa-download"></i>
-            Download Spending Data
+            Download Budget Data
         </a>`;
 
   // add download data button and remove the report button
@@ -41,5 +37,13 @@ $(".back-link").after(helpMessage);
 // mount the app
 new Vue({
   router,
+  vuetify,
   render: h => h(App)
 }).$mount("#app");
+
+
+// When document is loaded --> turn off FA tracking
+$(document).ready(function () {
+  window.FontAwesome.config.observeMutations = false;
+  window.FontAwesome.config.searchPseudoElements = false;
+});

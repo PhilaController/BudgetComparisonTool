@@ -11,7 +11,7 @@ export default {
   props: ["radiusScale", "width", "sizes", "height"],
   data() {
     return {
-      margin: { right: 40, bottom: 0, left: 40, top: 0 }
+      margin: { right: 40, bottom: 0, left: 40, top: 0 },
     };
   },
   watch: {
@@ -30,8 +30,8 @@ export default {
           .data(this.sizes)
           .enter()
           .append("circle")
-          .attr("r", d => newValue(d))
-          .attr("cy", d => this.height / 2 - this.margin.bottom - newValue(d))
+          .attr("r", (d) => newValue(d))
+          .attr("cy", (d) => this.height / 2 - this.margin.bottom - newValue(d))
           .attr("cx", 0)
           .attr("fill", "none")
           .attr("stroke", "#cfcfcf")
@@ -44,16 +44,17 @@ export default {
           .data(this.sizes)
           .enter()
           .append("text")
-          .text(d => `$${d3.format(",.1s")(d)}`)
+          .text((d) => `$${d3.format(",.1s")(d)}`)
           .attr("fill", "#2c3e50")
+          .attr("opacity", "0.6")
           .attr("font-size", "1.1rem")
           .attr("font-family", "sans-serif")
           .attr("dx", "4.5em")
           .attr(
             "y",
-            d => this.height / 2 - this.margin.bottom - 2 * newValue(d)
+            (d) => this.height / 2 - this.margin.bottom - 2 * newValue(d)
           )
-          .attr("alignment-baseline", d => (d == 1 ? "hanging" : "baseline"));
+          .attr("alignment-baseline", (d) => (d == 1 ? "hanging" : "baseline"));
 
         // add lines
         let lines = svg
@@ -65,17 +66,18 @@ export default {
           .attr("x2", "4em")
           .attr("stroke-width", 1.25)
           .attr("stroke", "#2c3e50")
+          .attr("opacity", "0.6")
           .attr(
             "y1",
-            d => this.height / 2 - this.margin.bottom - 2 * newValue(d)
+            (d) => this.height / 2 - this.margin.bottom - 2 * newValue(d)
           )
           .attr(
             "y2",
-            d => this.height / 2 - this.margin.bottom - 2 * newValue(d)
+            (d) => this.height / 2 - this.margin.bottom - 2 * newValue(d)
           );
       }
-    }
-  }
+    },
+  },
 };
 </script>
 
