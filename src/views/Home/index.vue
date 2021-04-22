@@ -61,7 +61,7 @@
           <a
             href="https://www.phila.gov/finance/pdfs/Operating%20Budget/FY21_Budget_in_Brief_Adopted_FINAL.pdf"
             class="text-link"
-            targert="blank"
+            targert="blank_"
             ><b>The FY21 Adopted Budget</b></a
           >: Adopted by City Council in June 2020, this budget includes spending
           cuts due to the impact of the COVID-19 pandemic; and
