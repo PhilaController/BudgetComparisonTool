@@ -13,6 +13,7 @@
         <ViewingOptions
           :allowedViewingOptions="viewingOptions"
           :comparisonFiscalYears="comparisonFiscalYears"
+          :defaultComparisonFiscalYear="defaultComparisonFiscalYear"
           @update-fiscal-year="updateFiscalYear"
           @update-viewing-option="updateViewingOption"
         />
@@ -20,7 +21,15 @@
 
       <!-- The total change -->
       <div
-        class="total-change text-center mt-5 pb-3 d-flex justify-content-center flex-column"
+        class="
+          total-change
+          text-center
+          mt-5
+          pb-3
+          d-flex
+          justify-content-center
+          flex-column
+        "
       >
         <div>Total Spending Change:</div>
         <div class="total-change-number">
@@ -76,6 +85,7 @@ export default {
     "width",
     "currentFiscalYear",
     "comparisonFiscalYears",
+    "defaultComparisonFiscalYear",
     "budgetType",
     "viewingOptions",
     "rawData",
@@ -91,7 +101,7 @@ export default {
       margin: { top: 10, right: 5, bottom: 10, left: 5 },
 
       // Viewing options
-      selectedComparisonFiscalYear: this.comparisonFiscalYears[0],
+      selectedComparisonFiscalYear: this.defaultComparisonFiscalYear,
       viewingMode: this.viewingOptions[0],
 
       // Components of the viz
@@ -121,7 +131,7 @@ export default {
       this.tooltip = d3Tip().attr("class", "tooltip");
 
       // Setup the radius scale
-      let maxPixels = window.screen.width > 768 ? 40 : 20;
+      let maxPixels = window.screen.width > 768 ? 50 : 20;
       this.radiusScale = this.getRadiusScale(this.rawData, maxPixels);
 
       // Sort bubbles by percent change
@@ -182,11 +192,11 @@ export default {
     },
     totalChange() {
       let col_new = `${this.currentFiscalYear} (${this.budgetType})`;
-      let col_old = `${this.selectedComparisonFiscalYear} (Adopted)`;
+      let col_old = this.selectedComparisonFiscalYear;
       return d3.sum(this.rawData, (d) => d[col_new] - d[col_old]);
     },
     percentTotalChange() {
-      let col_old = `${this.selectedComparisonFiscalYear} (Adopted)`;
+      let col_old = this.selectedComparisonFiscalYear;
       return this.totalChange / d3.sum(this.rawData, (d) => d[col_old]);
     },
     showAnnotations() {
@@ -222,14 +232,14 @@ export default {
       let tag_old = this.selectedComparisonFiscalYear.toString().slice(2);
       cols.push(
         {
-          label: `FY${tag_new} ${this.budgetType}`,
+          label: `FY${tag_new} (${this.budgetType})`,
           field: `${this.currentFiscalYear} (${this.budgetType})`,
           type: "number",
           formatFn: formatFn,
         },
         {
-          label: `FY${tag_old} Adopted`,
-          field: `${this.selectedComparisonFiscalYear} (Adopted)`,
+          label: `FY${tag_old}`,
+          field: this.selectedComparisonFiscalYear,
           type: "number",
           formatFn: formatFn,
         },
@@ -261,7 +271,7 @@ export default {
 
       let id = 0;
       let col_new = `${this.currentFiscalYear} (${this.budgetType})`;
-      let col_old = `${this.selectedComparisonFiscalYear} (Adopted)`;
+      let col_old = this.selectedComparisonFiscalYear;
       for (let [k, v] of grouped) {
         // Initialize a new row in the table
         row = { id: id, children: [] };
@@ -333,12 +343,12 @@ export default {
           data_field: "major_class_description",
         },
         {
-          title: `${this.selectedComparisonFiscalYear} Adopted`,
-          data_field: `${this.selectedComparisonFiscalYear} (Adopted)`,
+          title: this.selectedComparisonFiscalYear,
+          data_field: this.selectedComparisonFiscalYear,
           format_string: ",.3s",
         },
         {
-          title: `${this.currentFiscalYear} ${this.budgetType}`,
+          title: `${this.currentFiscalYear} (${this.budgetType})`,
           data_field: `${this.currentFiscalYear} (${this.budgetType})`,
           format_string: ",.3s",
         },
@@ -423,7 +433,7 @@ export default {
     },
     isEmptyLineItem(d) {
       let col_new = `${this.currentFiscalYear} (${this.budgetType})`;
-      let col_old = `${this.selectedComparisonFiscalYear} (Adopted)`;
+      let col_old = this.selectedComparisonFiscalYear;
       return (d[col_new] == 0) & (d[col_old] == 0);
     },
     hasSummaryRow() {
@@ -433,7 +443,7 @@ export default {
       let table = $(this.$refs.budgetTable.$el).find("table:last-child");
 
       let col_new = `${this.currentFiscalYear} (${this.budgetType})`;
-      let col_old = `${this.selectedComparisonFiscalYear} (Adopted)`;
+      let col_old = this.selectedComparisonFiscalYear;
       let current = d3.sum(this.tableRows, (d) => d[col_new]);
       let comparison = d3.sum(this.tableRows, (d) => d[col_old]);
       let diff = current - comparison;
@@ -481,7 +491,7 @@ export default {
           $(x).css("border-bottom-color", "#dcdfe6");
         });
         let cells = rows.find(`${cellType}:last`);
-
+        let ncells = cells.length;
         cells.each((i, x) => {
           let text = $(x)[0].innerText;
           let p = text.slice(0, -1);
@@ -494,7 +504,13 @@ export default {
           if (color) {
             color = `${color.slice(0, -1)}, 0.5)`;
             $(x).css("background-color", color);
-            $(x).css("border-bottom-color", color);
+
+            // Dont change bottom color for last row
+            if (i != ncells - 1) {
+              $(x).css("border-bottom-color", color);
+            } else {
+              $(x).css("border-bottom-color", "#dcdfe6");
+            }
           }
         });
       }
@@ -585,7 +601,7 @@ export default {
 
       // Maximum possible dollar difference
       let col_new = `${this.currentFiscalYear} (${this.budgetType})`;
-      let col_old = `${this.selectedComparisonFiscalYear} (Adopted)`;
+      let col_old = this.selectedComparisonFiscalYear;
       let diffMax = d3.max(data, (d) => Math.abs(d[col_new] - d[col_old]));
       return d3
         .scalePow()
@@ -600,7 +616,7 @@ export default {
       */
       // Do revised minus proposed
       let col_new = `${this.currentFiscalYear} (${this.budgetType})`;
-      let col_old = `${this.selectedComparisonFiscalYear} (Adopted)`;
+      let col_old = this.selectedComparisonFiscalYear;
       let diff = d[col_new] - d[col_old];
       if (absFlag) diff = Math.abs(diff);
       return diff;
@@ -612,7 +628,7 @@ export default {
       */
 
       let col_new = `${this.currentFiscalYear} (${this.budgetType})`;
-      let col_old = `${this.selectedComparisonFiscalYear} (Adopted)`;
+      let col_old = this.selectedComparisonFiscalYear;
 
       let diff = this.getSpendingDiff(d, false);
       let toret = diff / d[col_old];
@@ -734,7 +750,7 @@ export default {
       */
       let out, labels;
       let col_new = `${this.currentFiscalYear} (${this.budgetType})`;
-      let col_old = `${this.selectedComparisonFiscalYear} (Adopted)`;
+      let col_old = this.selectedComparisonFiscalYear;
 
       // one big bubble
       if (singleBubble) {
@@ -1061,7 +1077,7 @@ export default {
 
       let sign;
       let col_new = `${this.currentFiscalYear} (${this.budgetType})`;
-      let col_old = `${this.selectedComparisonFiscalYear} (Adopted)`;
+      let col_old = this.selectedComparisonFiscalYear;
 
       for (let i = 0; i < this.tooltipConfig.length; i++) {
         let cur_tooltip = this.tooltipConfig[i];

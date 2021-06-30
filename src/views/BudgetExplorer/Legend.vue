@@ -47,7 +47,7 @@ export default {
       return Math.min(window.screen.width * 0.9, 500);
     },
     radiusHeight() {
-      return window.screen.width > 768 ? 110 : 75;
+      return window.screen.width > 768 ? 140 : 90;
     },
   },
 };

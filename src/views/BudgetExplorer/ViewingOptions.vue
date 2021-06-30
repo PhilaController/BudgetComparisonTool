@@ -49,7 +49,11 @@
 <script>
 import { VRadio, VRadioGroup } from "vuetify/lib";
 export default {
-  props: ["allowedViewingOptions", "comparisonFiscalYears"],
+  props: [
+    "allowedViewingOptions",
+    "comparisonFiscalYears",
+    "defaultComparisonFiscalYear",
+  ],
   components: {
     VRadioGroup,
     VRadio,
@@ -57,7 +61,7 @@ export default {
   data() {
     return {
       selectedViewingOption: null,
-      selectedComparisonFiscalYear: this.comparisonFiscalYears[0],
+      selectedComparisonFiscalYear: this.defaultComparisonFiscalYear,
       viewingAliases: {
         "By Department": "City Department",
         "All Changes": "All Changes",

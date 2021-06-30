@@ -1,4 +1,5 @@
 import argparse
+import re
 from pathlib import Path
 
 import pandas as pd
@@ -74,8 +75,9 @@ def etl_data(start_year, kind):
             name
             for name in sheet_names
             if not any(tag in name for tag in ["ALL", "TOTAL", "Summary", "Template"])
+            and re.match("^[0-9]{2}", name)
         ]
-        assert len(sheet_names) == 72
+        assert len(sheet_names) == 72, sorted(sheet_names)
 
     # Get th codes
     codes = [read_dept_code(path, sheet_name) for sheet_name in sheet_names]

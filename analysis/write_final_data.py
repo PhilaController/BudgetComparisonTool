@@ -87,6 +87,28 @@ def write_data(start_year, kind):
     ]
     data = format_data(data, dict(zip(old_cols, new_cols)))
 
+    # Merge proposed for current year too?
+    if kind == "adopted":
+
+        # Load proposed
+        data2 = pd.read_csv(get_file_path(start_year, "proposed"))
+
+        old_cols = [
+            f"FY{get_fy_tag(yr)} Estimate" for yr in range(start_year, start_year + 5)
+        ]
+        new_cols = [
+            f"{yr} (Proposed)" for yr in range(start_year, start_year + 5)
+        ]
+        data2 = format_data(data2, dict(zip(old_cols, new_cols)))
+
+        # Merge
+        data = pd.merge(
+            data,
+            data2[["Code", "major_class_description"] + new_cols],
+            on=["Code", "major_class_description"],
+            how="left",
+        )
+
     # Load the data for last plan
     data2 = pd.read_csv(get_file_path(start_year - 1, "Adopted"))
 
@@ -97,10 +119,15 @@ def write_data(start_year, kind):
     # Merge
     data = pd.merge(
         data,
-        data2[["Code", "major_class_description", new_cols[0]]],
+        data2[["Code", "major_class_description"] + new_cols],
         on=["Code", "major_class_description"],
         how="left",
     )
+
+    # Trim to specific years
+    cols = [col for col in data.columns if col[:4] in [str(start_year-i) for i in [0, 1, 2]]]
+    cols = cols + [ 'category_code_description', 'dept_name', 'major_class_description', 'name']
+    data = data[cols]
 
     # Save data
     filename = (
@@ -111,8 +138,8 @@ def write_data(start_year, kind):
     csv_path = out_dir / (filename + ".csv")
 
     # Save JSON and CSV
-    data.drop(labels=["Code"], axis=1).to_json(json_path, orient="records")
-    data.drop(labels=["Code"], axis=1).to_csv(csv_path, index=False)
+    data.to_json(json_path, orient="records")
+    data.to_csv(csv_path, index=False)
 
     # Copy JSON file
     shutil.copy(json_path, Path("../src/data") / json_path.name)

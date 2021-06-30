@@ -2,19 +2,18 @@
   <div class="home-page">
     <div class="intro text-left ml-3 mr-3">
       <p>
-        On April 15, 2021, Mayor Kenney released his
+        On June 24, 2021, City Council approved the
         <a
           class="text-link"
-          href="https://www.phila.gov/documents/mayor-kenneys-fiscal-year-2022-budget/"
+          href="https://controller.phila.gov/wp-content/uploads/2021/06/FY22-26-Adopted.pdf"
           target="blank_"
-          >budget proposal</a
+          >Five Year Financial Plan</a
         >
-        for Fiscal Year 2022 (FY22) as part of the City’s annual Five Year
-        Financial Plan. While the COVID-19 pandemic is still impacting the
-        City’s finances, the budget proposal includes an overall increase in
-        spending due to an estimated $1.4 billion in federal funding the City is
-        set to receive as part of the American Rescue Plan. Without this federal
-        funding, the City was once again facing a
+        for Fiscal Year 2022 (FY22) to Fiscal Year 2026 (FY26). While the
+        COVID-19 pandemic is still impacting the City’s finances, the budget
+        proposal includes an overall increase in spending due to $1.4 billion in
+        federal funding the City is receiving as part of the American Rescue
+        Plan. Without this federal funding, the City was once again facing a
         <a
           class="text-link"
           href="https://controller.phila.gov/philadelphia-audits/covid19-fiscal-impact-mar-2021/"
@@ -34,10 +33,10 @@
         pandemic's impact on the local economy.
       </p>
       <p>
-        With the help of the additional federal funding, the Mayor's budget
-        proposal restores many, but not all, of the pandemic-related spending
-        cuts. To better understand these changes, the City Controller’s Office
-        is releasing a tool to visualize the major changes in the newly released
+        With the help of the additional federal funding, the adopted FY22 budget
+        restores many, but not all, of the pandemic-related spending cuts. To
+        better understand these changes, the City Controller’s Office is
+        releasing a tool to visualize the major changes in the newly released
         budget relative to budgets from previous years. The tool is intended to
         serve as a resource for policymakers and Philadelphians alike, bringing
         necessary transparency to the City’s budgeting process.
@@ -47,16 +46,23 @@
 
       <p>
         The visualization includes budgeted spending data for the
-        <a
-          class="text-link"
-          href="https://www.phila.gov/media/20210414133527/FY22-Budget-in-Brief-Proposed-FINAL.pdf"
-          target="blank_"
-        >
-          <b>FY22 Proposed Budget</b></a
-        >. Users can explore the new budget proposal by comparing to the adopted
-        budgets from the past two fiscal years:
+        <a class="text-link" href="" target="blank_">
+          <b>FY22 Adopted Budget</b></a
+        >. Users can explore the adopted FY22 budget by comparing to the
+        original FY22 proposal as well as the adopted budgets from the past two
+        fiscal years:
       </p>
       <ul class="indented">
+        <li>
+          <a
+            href="https://www.phila.gov/media/20210414133527/FY22-Budget-in-Brief-Proposed-FINAL.pdf"
+            class="text-link"
+            targert="blank_"
+            ><b>The FY22 Proposed Budget</b></a
+          >: Proposed by the Mayor in April, this budget proposal includes
+          overall spending increases due to the federal relief from the American
+          Rescue Plan;
+        </li>
         <li>
           <a
             href="https://www.phila.gov/finance/pdfs/Operating%20Budget/FY21_Budget_in_Brief_Adopted_FINAL.pdf"
@@ -121,8 +127,13 @@
     </div>
     <BudgetExplorer
       :currentFiscalYear="2022"
-      :comparisonFiscalYears="[2021, 2020]"
-      budgetType="Proposed"
+      :comparisonFiscalYears="[
+        '2022 (Proposed)',
+        '2021 (Adopted)',
+        '2020 (Adopted)',
+      ]"
+      :defaultComparisonFiscalYear="'2021 (Adopted)'"
+      budgetType="Adopted"
       label="spending"
       vizClass="spending-explorer"
       :rawData="rawData"
@@ -182,7 +193,7 @@ export default {
           },
         ],
       },
-      rawData: require("@/data/FYP2226-proposed-by-major-class.json"),
+      rawData: require("@/data/FYP2226-adopted-by-major-class.json"),
     };
   },
   computed: {
@@ -200,7 +211,7 @@ export default {
       return {
         "All Changes": {
           columns: 1,
-          height: 350,
+          height: 400,
           force_type: "charge",
           force_strength: 0.3,
         },

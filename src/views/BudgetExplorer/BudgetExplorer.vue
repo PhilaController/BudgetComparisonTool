@@ -10,6 +10,7 @@
       :width="totalWidth"
       :currentFiscalYear="currentFiscalYear"
       :comparisonFiscalYears="comparisonFiscalYears"
+      :defaultComparisonFiscalYear="defaultComparisonFiscalYear"
       :budgetType="budgetType"
       :rawData="rawData"
       :viewingConfig="viewingConfig"
@@ -31,6 +32,7 @@ export default {
   props: [
     "currentFiscalYear",
     "comparisonFiscalYears",
+    "defaultComparisonFiscalYear",
     "budgetType",
     "label",
     "rawData",
