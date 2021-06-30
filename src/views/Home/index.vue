@@ -59,7 +59,7 @@
             class="text-link"
             targert="blank_"
             ><b>The FY22 Proposed Budget</b></a
-          >: Proposed by the Mayor in April, this budget proposal includes
+          >: Proposed by the Mayor in April 2021, this budget proposal includes
           overall spending increases due to the federal relief from the American
           Rescue Plan;
         </li>
