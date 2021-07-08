@@ -20,7 +20,15 @@
 
       <!-- The total change -->
       <div
-        class="total-change text-center mt-5 pb-3 d-flex justify-content-center flex-column"
+        class="
+          total-change
+          text-center
+          mt-5
+          pb-3
+          d-flex
+          justify-content-center
+          flex-column
+        "
       >
         <div>Total Spending Change:</div>
         <div class="total-change-number">
@@ -454,8 +462,8 @@ export default {
 
       row =
         row +
-        `<th class="vgt-row-header vgt-right-align">${formatFn(comparison)}</th>
-        <th class="vgt-row-header vgt-right-align">${formatFn(current)}</th>
+        `<th class="vgt-row-header vgt-right-align">${formatFn(current)}</th>
+        <th class="vgt-row-header vgt-right-align">${formatFn(comparison)}</th>
         <th class="vgt-row-header vgt-right-align">${netChangeFormatFn(
           diff
         )}</th>
