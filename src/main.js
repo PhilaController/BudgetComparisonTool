@@ -12,6 +12,7 @@ let audit_content = $(".audit-content");
 audit_content.html(`<div id="app"></div>`);
 
 function add_data_buttons() {
+  /* Download the data */
 
   // spending button
   let spending_url = "https://raw.githubusercontent.com/PhiladelphiaController/BudgetComparisonTool/main/analysis/data/processed/FYP2226-adopted-by-major-class.csv";
@@ -24,6 +25,41 @@ function add_data_buttons() {
   $(".entry-header .btn").after(spending_btn).first().remove();
 }
 
+
+function add_archive_button() {
+  let dropdown = $(`<div class="dropdown mt-2"></div>`);
+
+  let button = $(`<button class="btn btn-primary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  View Past Budgets</button>`);
+
+  let dropdownMenu = $(
+    `<div class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton"></div>`
+  );
+
+  let baseURL = "https://controller.phila.gov/philadelphia-audits/";
+  let slugs = [
+    "the-proposed-fy22-budget",
+
+  ];
+  let texts = ["FY22 Proposed"];
+
+  for (let i = 0; i < slugs.length; i++) {
+    dropdownMenu.append(
+      `<a class="dropdown-item" href="${baseURL}/${slugs[i]}">${texts[i]}</a>`
+    );
+  }
+  dropdown.append(button);
+  dropdown.append(dropdownMenu);
+
+  // add the dropdown button
+  $(".entry-header .btn")
+    .last()
+    .after(dropdown);
+}
+
+
+// Add the buttons
+add_archive_button()
 add_data_buttons()
 
 // add help message
