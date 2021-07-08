@@ -7,7 +7,7 @@ versions of the budget:
 - [The Adopted FY22 Budget](https://controller.phila.gov/philadelphia-audits/the-adopted-fy22-budget/), approved by City Council on June 24, 2021.
 
 
-![FY22 Spending Changes](public/budget-tool-long.gif)
+![FY22 Spending Changes](public/FY22-Adopted.gif)
 
 ## Tools
 
