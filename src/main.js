@@ -59,8 +59,8 @@ function add_archive_button() {
 
 
 // Add the buttons
-add_archive_button()
 add_data_buttons()
+add_archive_button()
 
 // add help message
 let helpMessage = `<p class='help-message mt-2'>
