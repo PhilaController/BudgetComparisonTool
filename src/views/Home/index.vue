@@ -2,17 +2,11 @@
   <div class="home-page">
     <div class="intro text-left ml-3 mr-3">
       <p>
-        On June 24, 2021, City Council approved the
-        <a
-          class="text-link"
-          href="https://controller.phila.gov/wp-content/uploads/2021/06/FY22-26-Adopted.pdf"
-          target="blank_"
-          >Five Year Financial Plan</a
-        >
-        for Fiscal Year 2022 (FY22) to Fiscal Year 2026 (FY26). While the
-        COVID-19 pandemic is still impacting the City’s finances, the budget
-        proposal includes an overall increase in spending due to $1.4 billion in
-        federal funding the City is receiving as part of the American Rescue
+        On June 24, 2021, City Council approved the budget for Fiscal Year 2022
+        (FY22) as part of the City’s annual Five Year Financial Plan. While the
+        COVID-19 pandemic is still impacting the City’s finances, the adopted
+        FY22 budget includes an overall increase in spending due to $1.4 billion
+        in federal funding the City is receiving as part of the American Rescue
         Plan. Without this federal funding, the City was once again facing a
         <a
           class="text-link"
@@ -46,7 +40,11 @@
 
       <p>
         The visualization includes budgeted spending data for the
-        <a class="text-link" href="" target="blank_">
+        <a
+          class="text-link"
+          href="https://controller.phila.gov/wp-content/uploads/2021/06/FY22-26-Adopted.pdf"
+          target="blank_"
+        >
           <b>FY22 Adopted Budget</b></a
         >. Users can explore the adopted FY22 budget by comparing to the
         original FY22 proposal as well as the adopted budgets from the past two

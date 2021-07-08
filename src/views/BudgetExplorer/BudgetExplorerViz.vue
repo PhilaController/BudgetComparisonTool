@@ -464,8 +464,8 @@ export default {
 
       row =
         row +
-        `<th class="vgt-row-header vgt-right-align">${formatFn(comparison)}</th>
-        <th class="vgt-row-header vgt-right-align">${formatFn(current)}</th>
+        `<th class="vgt-row-header vgt-right-align">${formatFn(current)}</th>
+        <th class="vgt-row-header vgt-right-align">${formatFn(comparison)}</th>
         <th class="vgt-row-header vgt-right-align">${netChangeFormatFn(
           diff
         )}</th>
