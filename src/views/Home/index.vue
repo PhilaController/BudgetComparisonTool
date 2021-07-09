@@ -248,11 +248,11 @@ export default {
 }
 
 .intro p {
-  text-align: justify;
+  text-align: left;
 }
 
 .intro li {
-  text-align: justify;
+  text-align: left;
 }
 
 .indented {

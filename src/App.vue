@@ -49,6 +49,7 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 #nav a {
   font-weight: bold;
   font-size: 1.2rem;
