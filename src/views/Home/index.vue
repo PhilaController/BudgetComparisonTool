@@ -42,7 +42,7 @@
         The visualization includes budgeted spending data for the
         <a
           class="text-link"
-          href="https://controller.phila.gov/wp-content/uploads/2021/06/FY22-26-Adopted.pdf"
+          href="https://controller.phila.gov/wp-content/uploads/2021/07/FY22-Budget-in-Brief-Adopted.pdf"
           target="blank_"
         >
           <b>FY22 Adopted Budget</b></a
@@ -82,7 +82,7 @@
       </ul>
       <p>
         Spending changes are broken down by City department as well as the
-        "major class" associated with each type of spending. The City uses seven
+        "major class" associated with each type of spending. The City uses six
         major classes to classify spending:
       </p>
       <ul class="indented">
