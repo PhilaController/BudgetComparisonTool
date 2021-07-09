@@ -1,9 +1,5 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/" class="my-nav-link">Budget Explorer</router-link>
-      <router-link to="/guide" class="my-nav-link">Definitions</router-link>
-    </div> -->
     <transition name="fade" mode="out-in">
       <keep-alive>
         <router-view :key="$route.path" />
