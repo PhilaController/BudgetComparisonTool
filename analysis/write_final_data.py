@@ -1,155 +1,162 @@
 import argparse
-import shutil
-from collections import OrderedDict
-from pathlib import Path
 
 import pandas as pd
+from billy_penn.departments import load_city_departments
 
-DATA_DIR = Path(".") / "data"
+GITHUB = "https://raw.githubusercontent.com/PhilaController/phl-budget-data/main/src/phl_budget_data/data/historical/spending"
+START_FISCAL_YEAR = 2020
 
-CLASS_LABELS = OrderedDict(
-    {
-        "class_100": "Personal Services",
-        "class_200": "Purchase of Services",
-        "class_300_400": "Materials/Equip.",
-        "class_500": "Contrib./Indemnities",
-        "class_700": "Debt Service",
-        "class_800": "Payments to Other Funds",
-        "class_900": "Advances & Misc.",
-    }
-)
-
-CODES = pd.read_excel(DATA_DIR / "raw" / "dept_code_reference.xlsx")
+MAJOR_CLASS_DESCRIPTIONS = {
+    "class_900": "Advances & Misc.",
+    "class_500": "Contrib./Indemnities",
+    "class_700": "Debt Service",
+    "class_300_400": "Materials/Equip.",
+    "class_800": "Payments to Other Funds",
+    "class_100": "Personal Services",
+    "class_200": "Purchase of Services",
+}
 
 
-def format_data(df, cols_map):
-    """Format the data we want to save."""
+def load_data(kind):
+    """Load the data"""
 
-    return pd.merge(
-        df[
-            [
-                "Code",
-                "Expenditure Class",
-            ]
-            + list(cols_map.keys())
-        ]
-        .rename(
-            columns={
-                "Expenditure Class": "major_class_description",
-            }
+    # Raw data
+    df = pd.read_csv(f"{GITHUB}/budgeted-department-spending-{kind}.csv")
+
+    # Merge categories
+    categories = load_categories()
+    df = df.merge(categories, on="dept_code", how="left").assign(
+        dept_major_code=lambda df: df["dept_code"].str.slice(0, 2)
+    )
+
+    # Merge depts
+    depts = load_city_departments().rename(columns={"dept_code": "dept_major_code"})
+
+    return (
+        df.rename(columns={"dept_name": "name"})
+        .drop(columns=["abbreviation"])
+        .merge(depts, on="dept_major_code", how="left")
+        .rename(columns={"category_major": "category_code_description"})
+    )
+
+
+def load_categories():
+    return pd.read_excel("./data/raw/dept-categories.xlsx").drop(
+        columns=["dept_name", "abbreviation"]
+    )
+
+
+def transform_data(df, fy, kind):
+
+    df = df.query(f"fiscal_year == {fy}").drop(columns=["fiscal_year"])
+    if not len(df):
+        return None
+
+    id_cols = ["dept_name", "name", "category_code_description"]
+    return (
+        df.groupby(id_cols)
+        .sum()
+        .drop(columns=["total"])
+        .reset_index()
+        .melt(
+            id_vars=id_cols,
+            value_name=f"{fy} ({kind})",
+            var_name="major_class_description",
         )
-        .rename(columns=cols_map)
-        .query("major_class_description != 'total'")
         .assign(
             major_class_description=lambda df: df.major_class_description.replace(
-                CLASS_LABELS
+                MAJOR_CLASS_DESCRIPTIONS
             )
         )
-        .groupby(["Code", "major_class_description"])
-        .sum()
-        .reset_index(),
-        CODES[
-            ["Code", "dept_name", "category_code_description", "name"]
-        ].drop_duplicates(),
-        on="Code",
-        how="left",
     )
 
 
-def get_fy_tag(fiscal_year):
-    """Return the last two digits of the input year."""
-    return str(fiscal_year)[2:]
+def main(current_fiscal_year, kind):
+    """Process the data."""
 
+    # Load the data
+    adopted = load_data("adopted")
+    proposed = load_data("proposed")
 
-def get_file_path(start_year, kind):
-    """Return the file path to load."""
+    data = None
+    for fy in range(START_FISCAL_YEAR, current_fiscal_year):
 
-    end_year = start_year + 4
-    return (
-        DATA_DIR
-        / "processed"
-        / f"FYP{get_fy_tag(start_year)}{get_fy_tag(end_year)}_Depts_{kind.capitalize()}.csv"
-    )
+        for tag, df in zip(["Adopted", "Proposed"], [adopted, proposed]):
+            X = transform_data(df, fy, tag)
+            if X is None:
+                continue
+            if data is None:
+                data = X
+            else:
+                data = data.merge(
+                    X,
+                    on=[
+                        "dept_name",
+                        "name",
+                        "category_code_description",
+                        "major_class_description",
+                    ],
+                    how="outer",
+                )
 
-
-def write_data(start_year, kind):
-    """Write the cleaned data."""
-
-    # Load the data for the current plan
-    data = pd.read_csv(get_file_path(start_year, kind))
-
-    # Rename the columns
-    old_cols = [f"FY{get_fy_tag(start_year-1)} Adopted Budget"] + [
-        f"FY{get_fy_tag(yr)} Estimate" for yr in range(start_year, start_year + 5)
-    ]
-    new_cols = [f"{start_year-1} (Adopted)"] + [
-        f"{yr} ({kind.capitalize()})" for yr in range(start_year, start_year + 5)
-    ]
-    data = format_data(data, dict(zip(old_cols, new_cols)))
-
-    # Merge proposed for current year too?
+    # Add proposed if current year is adopted
     if kind == "adopted":
-
-        # Load proposed
-        data2 = pd.read_csv(get_file_path(start_year, "proposed"))
-
-        old_cols = [
-            f"FY{get_fy_tag(yr)} Estimate" for yr in range(start_year, start_year + 5)
-        ]
-        new_cols = [
-            f"{yr} (Proposed)" for yr in range(start_year, start_year + 5)
-        ]
-        data2 = format_data(data2, dict(zip(old_cols, new_cols)))
-
-        # Merge
-        data = pd.merge(
-            data,
-            data2[["Code", "major_class_description"] + new_cols],
-            on=["Code", "major_class_description"],
-            how="left",
+        X = transform_data(proposed, current_fiscal_year, "Proposed")
+        data = data.merge(
+            X,
+            on=[
+                "dept_name",
+                "name",
+                "category_code_description",
+                "major_class_description",
+            ],
+            how="outer",
         )
 
-    # Load the data for last plan
-    data2 = pd.read_csv(get_file_path(start_year - 1, "Adopted"))
+    # Add current year
+    if kind == "adopted":
+        df = adopted
+    else:
+        df = proposed
 
-    old_cols = [f"FY{get_fy_tag(start_year-2)} Adopted Budget"]
-    new_cols = [f"{start_year-2} (Adopted)"]
-    data2 = format_data(data2, dict(zip(old_cols, new_cols)))
-
-    # Merge
-    data = pd.merge(
-        data,
-        data2[["Code", "major_class_description"] + new_cols],
-        on=["Code", "major_class_description"],
-        how="left",
+    X = transform_data(df, current_fiscal_year, kind.capitalize())
+    data = data.merge(
+        X,
+        on=[
+            "dept_name",
+            "name",
+            "category_code_description",
+            "major_class_description",
+        ],
+        how="outer",
     )
 
-    # Trim to specific years
-    cols = [col for col in data.columns if col[:4] in [str(start_year-i) for i in [0, 1, 2]]]
-    cols = cols + [ 'category_code_description', 'dept_name', 'major_class_description', 'name']
-    data = data[cols]
+    # Add aliases
+    dept_aliases = pd.read_excel("./data/raw/dept-aliases.xlsx")
+    dept_alias_dict = dict(zip(dept_aliases["dept_name"], dept_aliases["alias"]))
+    data["dept_name"] = data["dept_name"].replace(dept_alias_dict)
 
-    # Save data
-    filename = (
-        f"FYP{get_fy_tag(start_year)}{get_fy_tag(start_year+4)}-{kind}-by-major-class"
-    )
-    out_dir = DATA_DIR / "processed"
-    json_path = out_dir / (filename + ".json")
-    csv_path = out_dir / (filename + ".csv")
+    name_aliases = pd.read_excel("./data/raw/name-aliases.xlsx")
+    name_alias_dict = dict(zip(name_aliases["name"], name_aliases["alias"]))
+    data["name"] = data["name"].replace(name_alias_dict)
 
-    # Save JSON and CSV
-    data.to_json(json_path, orient="records")
-    data.to_csv(csv_path, index=False)
-
-    # Copy JSON file
-    shutil.copy(json_path, Path("../src/data") / json_path.name)
+    return data.fillna(0)
 
 
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("start_year", type=int)
-    parser.add_argument("kind", type=str, choices=["proposed", "adopted"])
-    args = parser.parse_args()
+    parser.add_argument(
+        "fiscal_year", type=int, help="The current fiscal year to process"
+    )
+    parser.add_argument("kind", choices=["adopted", "proposed"])
 
-    write_data(args.start_year, args.kind)
+    # Get the data
+    args = parser.parse_args()
+    data = main(args.fiscal_year, args.kind)
+
+    # Save it
+    filename = "budget-comparison-data"
+    data.to_json(f"./data/processed/{filename}.json", orient="records")
+    data.to_csv(f"./data/processed/{filename}.csv", index=False)
+    data.to_json(f"../src/data/{filename}.json", orient="records")

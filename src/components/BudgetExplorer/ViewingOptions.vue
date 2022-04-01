@@ -1,28 +1,26 @@
 <template>
   <div class="options-wrapper">
-    <div class="title">Viewing Options</div>
+    <div class="my-title">Viewing Options</div>
+
     <!-- Fiscal year options -->
-    <div class="mt-3">
-      <div class="subtitle">Compare to the budget from Fiscal Year:</div>
-      <div class="d-flex justify-content-center">
-        <v-radio-group row v-model="selectedComparisonFiscalYear">
-          <v-radio
-            v-for="option in comparisonFiscalYears"
-            :key="option"
-            :label="`${option}`"
-            :value="option"
-            :ripple="false"
-          >
-          </v-radio>
-        </v-radio-group>
+    <div class="mt-3 fiscal-year-options">
+      <div class="my-subtitle text-left">
+        Compare to the budget from fiscal year:
+      </div>
+
+      <div class="d-flex justify-content-center budget-select-wrapper">
+        <v-select
+          :items="comparisonFiscalYears"
+          v-model="selectedComparisonFiscalYear"
+        />
       </div>
     </div>
-    <hr class="my-hr" />
+
     <!-- Viewing options -->
-    <div class="viewing-options">
-      <div class="subtitle">Group circles according to:</div>
-      <div class="d-flex justify-content-center flex-column align-items-center">
-        <v-radio-group row v-model="selectedViewingOption" class="radio-group">
+    <div class="viewing-options mt-5">
+      <div class="my-subtitle">Group circles according to:</div>
+      <div class="d-flex flex-column">
+        <v-radio-group v-model="selectedViewingOption" class="radio-group">
           <v-radio
             v-for="option in filteredViewingOptions"
             :key="option"
@@ -84,10 +82,10 @@ export default {
     },
   },
   watch: {
-    selectedViewingOption(nextValue, prevValue) {
+    selectedViewingOption(nextValue) {
       this.$emit("update-viewing-option", nextValue);
     },
-    selectedComparisonFiscalYear(nextValue, prevValue) {
+    selectedComparisonFiscalYear(nextValue) {
       this.$emit("update-fiscal-year", nextValue);
     },
   },
@@ -95,6 +93,14 @@ export default {
 </script>
 
 <style>
+.options-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.budget-select-wrapper {
+  max-width: 50%;
+}
 .options-wrapper label {
   margin-bottom: 0rem !important;
   margin-left: 0.25rem;
@@ -107,13 +113,14 @@ export default {
   border-top: 2px solid rgba(0, 0, 0, 0.1) !important;
 }
 
-.options-wrapper .subtitle {
+.options-wrapper .my-subtitle {
   color: #2c3e50;
   font-weight: 500;
   font-size: 1.15rem;
+  text-align: left;
 }
 
-.options-wrapper .title {
+.options-wrapper .my-title {
   font-size: 1.5rem;
   font-weight: 700;
   color: #2c3e50;
@@ -125,6 +132,9 @@ export default {
 
 .viewing-options {
   min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .v-btn:active,
@@ -136,8 +146,20 @@ export default {
 }
 
 @media screen and (max-width: 768px) {
-  .viewing-options .v-input--radio-group__input {
-    flex-direction: column !important;
+  .budget-select-wrapper {
+    max-width: 90%;
+  }
+  .reset-button {
+    max-width: 90%;
+  }
+  .viewing-options,
+  .options-wrapper {
+    align-items: center;
+  }
+  .fiscal-year-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 </style>

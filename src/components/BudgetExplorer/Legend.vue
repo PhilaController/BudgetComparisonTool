@@ -1,6 +1,6 @@
 <template>
   <div class="legend-wrapper d-flex justify-content-start flex-column">
-    <div class="title">Visualization Guide</div>
+    <div class="my-title">Visualization Guide</div>
     <!-- Color key -->
     <div class="color-key-wrapper d-flex flex-column mt-3">
       <div class="legend-title d-flex justify-content-center mb-2">
@@ -34,7 +34,6 @@
 <script>
 import ColorKey from "./ColorKey";
 import RadiusKey from "./RadiusKey";
-import * as d3 from "d3";
 
 export default {
   props: ["colorScale", "radiusScale", "sizes", "label"],
@@ -47,7 +46,7 @@ export default {
       return Math.min(window.screen.width * 0.9, 500);
     },
     radiusHeight() {
-      return window.screen.width > 768 ? 140 : 90;
+      return window.screen.width > 768 ? 150 : 90;
     },
   },
 };
@@ -84,7 +83,7 @@ export default {
     margin-left: 0px;
   }
 }
-.legend-wrapper .title {
+.legend-wrapper .my-title {
   font-size: 1.5rem;
   font-weight: 700;
   color: #2c3e50;

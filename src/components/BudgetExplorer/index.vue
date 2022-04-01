@@ -2,7 +2,7 @@
   <!-- Outside wrapper -->
   <div class="budget-explorer-container">
     <!-- User Toolbar -->
-    <div class="title d-flex justify-content-center">Budget Explorer</div>
+    <div class="app-title d-flex justify-content-center">Budget Explorer</div>
 
     <!-- Budget Explorer Viz -->
     <BudgetExplorerViz
@@ -24,7 +24,6 @@
 </template>
 
 <script>
-import * as d3 from "d3";
 import BudgetExplorerViz from "./BudgetExplorerViz";
 
 export default {
@@ -52,7 +51,7 @@ export default {
 </script>
 
 <style>
-.title {
+.app-title {
   font-weight: 700;
   font-size: 2.5rem;
 }

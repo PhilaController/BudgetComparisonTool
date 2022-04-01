@@ -70,15 +70,27 @@
 import Legend from "./Legend";
 import ViewingOptions from "./ViewingOptions";
 import { formatFn, netChangeFormatFn, percentFn } from "@/utils/formatFns";
+
+import $ from "jquery";
 import * as d3 from "d3";
 import d3Tip from "d3-tip";
 import { rollup, group } from "d3-array";
+
 import "vue-good-table/dist/vue-good-table.css";
 import { VueGoodTable } from "vue-good-table";
 
 Array.prototype.move = function (from, to) {
   this.splice(to, 0, this.splice(from, 1)[0]);
 };
+
+function textwrap(t) {
+  /* Wrap the string into two lines */
+  let words = t.split(" ");
+  let first_half = words.slice(0, words.length / 2).join(" ");
+  let second_half = words.slice(words.length / 2).join(" ");
+
+  return [first_half, second_half];
+}
 
 export default {
   props: [
@@ -262,7 +274,6 @@ export default {
       let out = [],
         row,
         child,
-        col,
         grouped;
 
       // Group the data by the necessary field
@@ -378,24 +389,24 @@ export default {
     },
   },
   watch: {
-    height(newValue, oldValue) {
+    height(newValue) {
       if (this.svg) this.svg.attr("height", newValue);
     },
-    selectedComparisonFiscalYear(newValue, oldValue) {
+    selectedComparisonFiscalYear() {
       this.handleYearChange();
     },
-    tableRows(newValue, oldValue) {
+    tableRows() {
       this.$nextTick(() => {
         this.colorPercentDiffCells();
       });
     },
-    tableColumns(newValue, oldValue) {
+    tableColumns() {
       this.$nextTick(() => {
         $(".summary-row").remove();
         this.colorPercentDiffCells();
       });
     },
-    viewingMode(newMode, oldMode) {
+    viewingMode(newMode) {
       // Set the split view boolean
       this.splitView = newMode != "All Changes";
 
@@ -418,9 +429,9 @@ export default {
     updateTotalChangeColor() {
       // Green or red?
       if (this.totalChange > 0) {
-        $(".total-change-number").addClass("green").removeClass("red");
+        $(".total-change-number").addClass("my-green").removeClass("my-red");
       } else {
-        $(".total-change-number").addClass("red").removeClass("green");
+        $(".total-change-number").addClass("my-red").removeClass("my-green");
       }
     },
     updateViewingOption(value) {
@@ -622,7 +633,7 @@ export default {
       return diff;
     },
 
-    getSpendingDiffPercent(d, absFlag) {
+    getSpendingDiffPercent(d) {
       /* 
         Utility function to calculate percent spending change
       */
@@ -846,7 +857,7 @@ export default {
         The function that runs at each tick of the simulation
       */
       this.bubbles
-        .each((node) => {})
+        .each(() => {})
         .attr("cx", (d) => d.x)
         .attr("cy", (d) => d.y);
 
@@ -1005,7 +1016,6 @@ export default {
         );
       }
     },
-
     showLabels(mode) {
       /*
        * Shows labels for each of the positions in the grid.
@@ -1014,11 +1024,16 @@ export default {
       let data = [];
       let groupby = this.viewingConfig[this.viewingMode].groupby;
       for (let i = 0; i < currentLabels.length; i++) {
+        // This is the label for the group
         let t = currentLabels[i];
+
+        // Get the change associated with this group
         let change = d3.sum(
           this.nodes.filter((d) => d[groupby] == t),
           (d) => this.getSpendingDiff(d, false)
         );
+
+        // Save this
         data.push([t, change]);
       }
 
@@ -1054,7 +1069,24 @@ export default {
         .transition(t)
         .attr("opacity", 1.0);
 
-      texts.append("tspan").text((d) => d[0]);
+      texts.each(function (d) {
+        let label = d[0];
+
+        // Wrap the label in a span
+        if (label.length > 35) {
+          label = textwrap(label);
+        } else {
+          label = [label];
+        }
+        let text = d3.select(this);
+        for (let i = 0; i < label.length; i++) {
+          text
+            .append("tspan")
+            .text(label[i])
+            .attr("dy", 25 * i)
+            .attr("x", mode.gridCenters[d[0]].x);
+        }
+      });
 
       texts
         .append("tspan")
@@ -1152,12 +1184,13 @@ export default {
   font-weight: 500;
 }
 .viz-guide {
+  padding-bottom: 50px !important;
   border-bottom: 2px solid #deedfc;
 }
-.green {
+.my-green {
   color: #398649;
 }
-.red {
+.my-red {
   color: #da3b46;
 }
 /* tooltip */

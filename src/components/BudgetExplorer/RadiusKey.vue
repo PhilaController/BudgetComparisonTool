@@ -15,7 +15,7 @@ export default {
     };
   },
   watch: {
-    radiusScale(newValue, oldValue) {
+    radiusScale(newValue) {
       if (newValue) {
         let svg = d3
           .select("#radius-key-canvas")
@@ -25,7 +25,7 @@ export default {
           );
 
         // add circles
-        let circles = svg
+        svg
           .selectAll("circle")
           .data(this.sizes)
           .enter()
@@ -39,7 +39,7 @@ export default {
           .attr("stroke-width", 2);
 
         // add text
-        let texts = svg
+        svg
           .selectAll("text")
           .data(this.sizes)
           .enter()
@@ -57,7 +57,7 @@ export default {
           .attr("alignment-baseline", (d) => (d == 1 ? "hanging" : "baseline"));
 
         // add lines
-        let lines = svg
+        svg
           .selectAll("line")
           .data(this.sizes)
           .enter()

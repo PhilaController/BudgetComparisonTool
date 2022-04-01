@@ -1,17 +1,150 @@
 <template>
-  <div id="app">
-    <transition name="fade" mode="out-in">
-      <keep-alive>
-        <router-view :key="$route.path" />
-      </keep-alive>
-    </transition>
+  <div data-vuetify>
+    <v-app id="app">
+      <v-main>
+        <!-- Intro -->
+        <Home />
+
+        <!-- Budget Explorer -->
+        <BudgetExplorer
+          :currentFiscalYear="currentFiscalYear"
+          :comparisonFiscalYears="comparisonFiscalYears"
+          :defaultComparisonFiscalYear="defaultComparisonFiscalYear"
+          :budgetType="kind"
+          label="spending"
+          vizClass="spending-explorer"
+          :rawData="rawData"
+          :viewingOptions="viewingOptions"
+          :viewingConfig="viewingConfig"
+          :tableConfig="tableConfig"
+          :legendConfig="legendConfig"
+          :annotationLabels="annotationLabels"
+        />
+      </v-main>
+    </v-app>
   </div>
 </template>
 
 <script>
+import BudgetExplorer from "@/components/BudgetExplorer";
+
 export default {
-  name: "app",
-  components: {},
+  name: "BudgetComparisonApp",
+  components: {
+    BudgetExplorer,
+    Home: require("@/components/Home/" + __TAG__ + ".vue").default, // eslint-disable-line
+  },
+  data() {
+    return {
+      startFiscalYear: 2020,
+      currentFiscalYear: parseInt(__FY__), // eslint-disable-line
+      kind: __KIND__, // eslint-disable-line
+      annotationLabels: ["Budget increases", "Budget cuts"],
+      viewingOptions: [
+        "All Changes",
+        "By Department",
+        "By Major Class",
+        "By Category",
+      ],
+      tableConfig: {
+        grouped: [
+          "All Changes",
+          "By Department",
+          "By Major Class",
+          "By Category",
+        ],
+        groupby: {
+          "All Changes": "name",
+          "By Department": "name",
+          "By Major Class": "major_class_description",
+          "By Category": "category_code_description",
+        },
+        childColumns: {},
+        headerColumns: [
+          {
+            label: "Name",
+            field: "name",
+            required: true,
+            width: "25%",
+          },
+          {
+            label: "Major Class",
+            field: "major_class_description",
+            required: true,
+            width: "25%",
+          },
+          {
+            label: "Category",
+            field: "category_code_description",
+            required: false,
+            width: "25%",
+          },
+        ],
+      },
+      rawData: require("@/data/budget-comparison-data.json"),
+    };
+  },
+  computed: {
+    smallScreen() {
+      return window.screen.width <= 768;
+    },
+    legendConfig() {
+      return {
+        sizes: this.smallScreen ? [1e6, 200e6] : [1e6, 50e6, 200e6],
+        colorScaleDomain: [-1, 1],
+        label: "budgeted spending",
+      };
+    },
+    viewingConfig() {
+      return {
+        "All Changes": {
+          columns: 1,
+          height: 400,
+          force_type: "charge",
+          force_strength: 0.3,
+        },
+        "By Department": {
+          columns: this.smallScreen ? 2 : 4,
+          height: this.smallScreen ? 3750 : 3250,
+          groupby: "dept_name",
+          force_type: "collide",
+          force_strength: 0.05,
+        },
+        "By Major Class": {
+          columns: this.smallScreen ? 2 : 3,
+          height: this.smallScreen ? 750 : 1000,
+          groupby: "major_class_description",
+          force_type: "collide",
+          force_strength: 0.05,
+        },
+        "By Category": {
+          columns: this.smallScreen ? 2 : 4,
+          height: this.smallScreen ? 1200 : 800,
+          groupby: "category_code_description",
+          force_type: "collide",
+          force_strength: 0.05,
+        },
+      };
+    },
+    comparisonFiscalYears() {
+      let out = [];
+
+      // Add past year adopted budgets
+      for (let fy = this.startFiscalYear; fy < this.currentFiscalYear; fy++) {
+        out.push(fy + " (Adopted)");
+      }
+
+      // Add current year proposed budget
+      if (this.kind == "Adopted") {
+        out.push(this.currentFiscalYear + " (Proposed)");
+      }
+      return out;
+    },
+    defaultComparisonFiscalYear() {
+      let i = this.comparisonFiscalYears.length - 1;
+      return this.comparisonFiscalYears[i];
+    },
+  },
 };
 </script>
 
