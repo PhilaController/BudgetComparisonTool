@@ -1073,7 +1073,7 @@ export default {
         let label = d[0];
 
         // Wrap the label in a span
-        if (label.length > 35) {
+        if (label.length > 25) {
           label = textwrap(label);
         } else {
           label = [label];
