@@ -245,14 +245,14 @@ export default {
       let tag_old = this.selectedComparisonFiscalYear.toString().slice(2);
       cols.push(
         {
-          label: `FY${tag_new} (${this.budgetType})`,
-          field: `${this.currentFiscalYear} (${this.budgetType})`,
+          label: `FY${tag_old}`,
+          field: this.selectedComparisonFiscalYear,
           type: "number",
           formatFn: formatFn,
         },
         {
-          label: `FY${tag_old}`,
-          field: this.selectedComparisonFiscalYear,
+          label: `FY${tag_new} (${this.budgetType})`,
+          field: `${this.currentFiscalYear} (${this.budgetType})`,
           type: "number",
           formatFn: formatFn,
         },
@@ -610,15 +610,12 @@ export default {
       }
     },
 
-    getRadiusScale(data, maxPixels) {
+    getRadiusScale(data, maxPixels, diffMax = 200e6) {
       /* 
         Generate a scale to go from radius to pixels
       */
 
       // Maximum possible dollar difference
-      let col_new = `${this.currentFiscalYear} (${this.budgetType})`;
-      let col_old = `${this.startFiscalYear} (Adopted)`;
-      let diffMax = d3.max(data, (d) => Math.abs(d[col_new] - d[col_old]));
       return d3
         .scalePow()
         .exponent(0.5)

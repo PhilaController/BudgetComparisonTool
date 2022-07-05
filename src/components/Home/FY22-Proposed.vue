@@ -2,22 +2,45 @@
   <div class="home-page">
     <div class="intro text-left ml-3 mr-3">
       <p>
-        On March 31, 2022, Mayor Kenney proposed his General Fund budget for
-        fiscal year 2023 (FY23) as part of the City’s annual Five Year Financial
-        Plan. The proposed budget totals $5.6 billion in spending and includes
-        an overall increase in spending of $343 million relative to the adopted
-        FY22 budget. With the COVID-19 pandemic still impacting the local
-        economy and tax revenue totals well below pre-pandemic forecasts, this
-        increase in spending would not have been possible without $1.4 billion
-        in federal relief from the American Rescue Plan. The mayor's budget
-        proposes using $335 million of these federal funds during FY23.
+        On April 15, 2021, Mayor Kenney released his
+        <a
+          class="text-link"
+          href="https://www.phila.gov/documents/mayor-kenneys-fiscal-year-2022-budget/"
+          target="blank_"
+          >budget proposal</a
+        >
+        for fiscal year 2022 (FY22) as part of the City’s annual Five Year
+        Financial Plan. While the COVID-19 pandemic is still impacting the
+        City’s finances, the budget proposal includes an overall increase in
+        spending due to an estimated $1.4 billion in federal funding the City is
+        set to receive as part of the American Rescue Plan. Without this federal
+        funding, the City was once again facing a
+        <a
+          class="text-link"
+          target="blank_"
+          href="https://controller.phila.gov/philadelphia-audits/covid19-fiscal-impact-mar-2021/"
+          >large revenue shortfall</a
+        >
+        that would have necessitated significant spending reductions. These cuts
+        would have been in addition to those enacted as part of last year's
+        budget, when the City's
+        <a
+          class="text-link"
+          target="blank_"
+          href="https://controller.phila.gov/philadelphia-audits/interactive-fy21-budget/"
+          >FY21 budget</a
+        >
+        decreased by more than 4 percent as revenues declined as a result of the
+        pandemic's impact on the local economy.
       </p>
       <p>
-        To better understand the mayor's proposed budget, the City Controller’s
-        Office is releasing a tool to visualize the major changes in the newly
-        released budget relative to budgets from previous years. The tool is
-        intended to serve as a resource for policymakers and Philadelphians
-        alike, bringing necessary transparency to the City’s budgeting process.
+        With the help of the additional federal funding, the Mayor's budget
+        proposal restores many, but not all, of the pandemic-related spending
+        cuts. To better understand these changes, the City Controller’s Office
+        is releasing a tool to visualize the major changes in the newly released
+        budget relative to budgets from previous years. The tool is intended to
+        serve as a resource for policymakers and Philadelphians alike, bringing
+        necessary transparency to the City’s budgeting process.
       </p>
 
       <h2 class="mb-3">About this tool</h2>
@@ -26,24 +49,13 @@
         The visualization includes budgeted spending data for the
         <a
           class="text-link"
-          href="https://www.phila.gov/media/20210709120158/budget-in-brief-FY2022-approved.pdf"
           target="blank_"
-        >
-          <b>FY23 Proposed Budget</b></a
-        >. Users can explore the proposed FY23 budget by comparing to the
-        adopted budgets from the past three fiscal years:
+          href="https://www.phila.gov/media/20210414133527/FY22-Budget-in-Brief-Proposed-FINAL.pdf"
+          ><b>FY22 Proposed Budget</b></a
+        >. Users can explore the new budget proposal by comparing to the adopted
+        budgets from the past two fiscal years:
       </p>
       <ul class="indented">
-        <li>
-          <a
-            href="https://www.phila.gov/media/20210414133527/FY22-Budget-in-Brief-Proposed-FINAL.pdf"
-            class="text-link"
-            targert="blank_"
-            ><b>The FY22 Adopted Budget</b></a
-          >: Adopted by City Council in June 2021, this budget includes overall
-          spending increases due to the federal relief from the American Rescue
-          Plan;
-        </li>
         <li>
           <a
             class="text-link"
@@ -63,9 +75,10 @@
           representation of City spending prior to the COVID-19 pandemic.
         </li>
       </ul>
+
       <p>
         Spending changes are broken down by City department as well as the
-        "major class" associated with each type of spending. The City uses six
+        "major class" associated with each type of spending. The City uses seven
         major classes to classify spending:
       </p>
       <ul class="indented">

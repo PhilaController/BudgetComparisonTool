@@ -2,7 +2,7 @@
   <!-- Outside wrapper -->
   <div class="budget-explorer-container">
     <!-- User Toolbar -->
-    <div class="app-title d-flex justify-content-center">Budget Explorer</div>
+    <h2 class="app-title d-flex justify-content-center">Budget Explorer</h2>
 
     <!-- Budget Explorer Viz -->
     <BudgetExplorerViz

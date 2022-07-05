@@ -3,6 +3,7 @@ import Vue from "vue";
 import App from "@/App";
 import vuetify from '@/plugins/vuetify' // path to vuetify export
 import $ from "jquery"
+import { descending } from 'd3-array';
 
 Vue.config.productionTip = false;
 
@@ -29,39 +30,59 @@ function add_data_buttons() {
 }
 
 
-function add_archive_button() {
+async function add_archive_button() {
+
+  // Create a dropdown element and button
   let dropdown = $(`<div class="dropdown mt-2"></div>`);
-
   let button = $(`<button class="btn btn-primary btn-block dropdown-toggle" 
-                          type="button" 
-                          id="otherButton" 
-                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-  View Past Budgets</button>`);
-
+                    type="button" 
+                    id="archiveButton" 
+                    data-toggle="dropdown" 
+                    aria-haspopup="true" 
+                    aria-expanded="false">View Other Budgets</button>`);
   let dropdownMenu = $(
-    `<div class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton"></div>`
+    `<div class="dropdown-menu w-100" 
+          aria-labelledby="archiveButton"
+          style="max-height: 300px; overflow-y: auto"></div>`
   );
 
+  // Load the data
+  let response = await fetch("https://raw.githubusercontent.com/PhilaController/BudgetComparisonTool/main/src/data/budgets.json");
+  let data = await response.json();
+
+  // Sort the data in descending order
+  data = data.sort((a, b) => descending(a.fiscalYear, b.fiscalYear));
+
+  // This budget
+  let thisBudget = __TAG__;
+
+  // Add each URL
   let baseURL = "https://controller.phila.gov/philadelphia-audits/";
-  let slugs = [
-    "the-proposed-fy22-budget",
-    "the-adopted-fy22-budget",
+  for (let i = 0; i < data.length; i++) {
+    let item = data[i]
+    let fy = item.fiscalYear.slice(2);
+    let upperKind = item.kind.charAt(0).toUpperCase() + item.kind.slice(1);
+    let tag = `FY${fy}-${upperKind}`
 
-  ];
-  let texts = ["FY22 Proposed", "FY22 Adopted"];
+    // Skip the current report
+    if (tag === thisBudget) continue;
 
-  for (let i = 0; i < slugs.length; i++) {
+    // Get the slug and label
+    let slug = `the-${item.kind}-fy${fy}-budget`
+    let label = `FY${fy} ${upperKind}`;
+
+    // Otherwise, add the dropdown item
     dropdownMenu.append(
-      `<a class="dropdown-item" href="${baseURL}/${slugs[i]}">${texts[i]}</a>`
+      `<a class="dropdown-item" style = "color: #212529;" href = "${baseURL}/${slug}">${label}</a>`
     );
   }
   dropdown.append(button);
   dropdown.append(dropdownMenu);
 
   // Don't add more than once
-  if ($("#otherButton").length > 0) return;
+  if ($("#archiveButton").length > 0) return;
 
-  // add the dropdown button
+  // Add the dropdown button
   $(".entry-header .btn")
     .last()
     .after(dropdown);
@@ -74,10 +95,10 @@ add_archive_button()
 
 // add help message
 if ($(".help-message").length == 0) {
-  let helpMessage = `<p class='help-message mt-2'>
-  Comments or feedback? Please contact
-  <a href="mailto:controller@phila.gov">controller@phila.gov</a>.
-  </p>`;
+  let helpMessage = `< p class='help-message mt-2' >
+      Comments or feedback ? Please contact
+        < a href = "mailto:controller@phila.gov" > controller@phila.gov</a >.
+  </p > `;
   $(".back-link").after(helpMessage);
 }
 

@@ -1,6 +1,6 @@
 <template>
   <div class="legend-wrapper d-flex justify-content-start flex-column">
-    <div class="my-title">Visualization Guide</div>
+    <h3 class="my-title">Visualization Guide</h3>
     <!-- Color key -->
     <div class="color-key-wrapper d-flex flex-column mt-3">
       <div class="legend-title d-flex justify-content-center mb-2">

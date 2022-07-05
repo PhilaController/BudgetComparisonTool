@@ -36,7 +36,7 @@
         necessary transparency to the City’s budgeting process.
       </p>
 
-      <h3>About this tool</h3>
+      <h2>About this tool</h2>
 
       <p>
         The visualization includes budgeted spending data for the
@@ -63,19 +63,19 @@
         </li>
         <li>
           <a
-            href="https://www.phila.gov/finance/pdfs/Operating%20Budget/FY21_Budget_in_Brief_Adopted_FINAL.pdf"
             class="text-link"
-            targert="blank_"
-            ><b>The FY21 Adopted Budget</b></a
+            target="blank_"
+            href="https://www.phila.gov/media/20210709120156/budget-in-brief-FY2021-approved.pdf"
+            ><b>FY21 Adopted Budget</b></a
           >: Adopted by City Council in June 2020, this budget includes spending
           cuts due to the impact of the COVID-19 pandemic; and
         </li>
         <li>
           <a
-            href="https://www.phila.gov/finance/pdfs/Operating%20Budget/FY20%20BudgetinBrief_Adopted.pdf"
             class="text-link"
             target="blank_"
-            ><b>The FY20 Adopted Budget</b></a
+            href="https://www.phila.gov/media/20201020113701/budget-in-brief-FY2020-approved.pdf"
+            ><b>FY20 Adopted Budget</b></a
           >: Adopted by City Council in June 2019, this budget is the best
           representation of City spending prior to the COVID-19 pandemic.
         </li>
@@ -115,12 +115,11 @@
         In addition to viewing all changes at once, users can group the changes
         according to department, major class, or spending category. The spending
         category is a broad label based on the primary function of a department,
-        such as Public Safety, Education, and Recreation, Arts, and Culture.
-        Budgeted spending items that are outside the main function of a
-        department may not be reflected in these spending categories. For
-        example, spending on the Philadelphia Cultural Fund was transferred to
-        the Managing Director's Office (categorized as "Finance &
-        Administration") in the FY21 budget.
+        such as Public Safety; Education; and General Government. Budgeted
+        spending items that are outside the main function of a department may
+        not be reflected in these spending categories. For example, spending on
+        the Philadelphia Cultural Fund was transferred to the Managing
+        Director's Office, which is categorized as "General Government".
       </p>
     </div>
   </div>

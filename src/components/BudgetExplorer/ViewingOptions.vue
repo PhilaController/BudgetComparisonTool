@@ -1,6 +1,6 @@
 <template>
   <div class="options-wrapper">
-    <div class="my-title">Viewing Options</div>
+    <h3 class="my-title">Viewing Options</h3>
 
     <!-- Fiscal year options -->
     <div class="mt-3 fiscal-year-options">
