@@ -8,6 +8,7 @@
         <!-- Budget Explorer -->
         <BudgetExplorer
           :currentFiscalYear="currentFiscalYear"
+          :startFiscalYear="startFiscalYear"
           :comparisonFiscalYears="comparisonFiscalYears"
           :defaultComparisonFiscalYear="defaultComparisonFiscalYear"
           :budgetType="kind"
@@ -129,20 +130,25 @@ export default {
     comparisonFiscalYears() {
       let out = [];
 
-      // Add past year adopted budgets
-      for (let fy = this.startFiscalYear; fy < this.currentFiscalYear; fy++) {
-        out.push(fy + " (Adopted)");
-      }
-
       // Add current year proposed budget
       if (this.kind == "Adopted") {
         out.push(this.currentFiscalYear + " (Proposed)");
       }
+
+      // Add past year adopted budgets
+      for (
+        let fy = this.currentFiscalYear - 1;
+        fy >= this.startFiscalYear;
+        fy--
+      ) {
+        out.push(fy + " (Adopted)");
+      }
+
       return out;
     },
     defaultComparisonFiscalYear() {
-      let i = this.comparisonFiscalYears.length - 1;
-      return this.comparisonFiscalYears[i];
+      if (this.kind == "Adopted") return this.comparisonFiscalYears[1];
+      else return this.comparisonFiscalYears[0];
     },
   },
 };

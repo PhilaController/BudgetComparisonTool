@@ -15,10 +15,14 @@ function add_data_buttons() {
 
   // spending button
   let spending_url = "https://raw.githubusercontent.com/PhiladelphiaController/BudgetComparisonTool/main/analysis/data/processed/budget-comparison-data.csv";
-  let spending_btn = `<a href="${spending_url}" class="btn btn-primary btn-block btn-block">
+  let spending_btn = `<a id="downloadDataButton" href="${spending_url}" class="btn btn-primary btn-block btn-block">
             <i class="fas fa-download"></i>
             Download Budget Data
         </a>`;
+
+  // Don't add more than once
+  if ($("#downloadDataButton").length > 0) return;
+
 
   // add download data button and remove the report button
   $(".entry-header .btn").after(spending_btn).first().remove();
@@ -28,7 +32,10 @@ function add_data_buttons() {
 function add_archive_button() {
   let dropdown = $(`<div class="dropdown mt-2"></div>`);
 
-  let button = $(`<button class="btn btn-primary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  let button = $(`<button class="btn btn-primary btn-block dropdown-toggle" 
+                          type="button" 
+                          id="otherButton" 
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
   View Past Budgets</button>`);
 
   let dropdownMenu = $(
@@ -51,6 +58,9 @@ function add_archive_button() {
   dropdown.append(button);
   dropdown.append(dropdownMenu);
 
+  // Don't add more than once
+  if ($("#otherButton").length > 0) return;
+
   // add the dropdown button
   $(".entry-header .btn")
     .last()
@@ -63,11 +73,13 @@ add_data_buttons()
 add_archive_button()
 
 // add help message
-let helpMessage = `<p class='help-message mt-2'>
+if ($(".help-message").length == 0) {
+  let helpMessage = `<p class='help-message mt-2'>
   Comments or feedback? Please contact
   <a href="mailto:controller@phila.gov">controller@phila.gov</a>.
   </p>`;
-$(".back-link").after(helpMessage);
+  $(".back-link").after(helpMessage);
+}
 
 
 // mount the app

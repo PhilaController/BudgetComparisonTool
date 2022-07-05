@@ -3,6 +3,7 @@ import re
 from pathlib import Path
 
 import pandas as pd
+from billy_penn.departments import load_city_departments
 
 DATA_DIR = Path(".") / "data"
 
@@ -51,6 +52,72 @@ def read_dept_code(path, sheet_name):
         .iloc[0]
         .tolist()
     )
+
+
+def transform_data(df, start_year):
+    """Put into phl-budget-data format."""
+
+    col = f"FY{get_fy_tag(start_year)} Estimate"
+    total = df.query("`Expenditure Class` == 'total'")[col].sum()
+
+    # Load department info
+    depts = load_city_departments(include_line_items=True)
+
+    # Load master sheet crosswalk
+    crosswalk = pd.read_excel("./data/raw/master-sheet-crosswalk.xlsx", dtype=str)
+
+    # Merge dept info in
+    crosswalk = crosswalk.merge(
+        depts, on="dept_code", how="left", validate="1:1"
+    ).assign(dept_major_code=lambda df: df.dept_code.str.slice(0, 2))
+
+    # Merge crosswalk
+    df = (
+        df.drop(columns="Code")
+        .rename(columns={"Department": "dept_name_raw"})
+        .merge(crosswalk, on="dept_name_raw", validate="m:1", how="left")
+    )
+
+    # Pivot it
+    id_cols = [
+        "dept_name_raw",
+        "dept_code",
+        "dept_name",
+        "abbreviation",
+        "dept_major_code",
+    ]
+    df = (
+        df.set_index(id_cols)
+        .pivot(columns="Expenditure Class", values=col)
+        .reset_index()
+    ).assign(fiscal_year=start_year)
+    df.columns.name = None
+
+    class_columns = [
+        "class_100",
+        "class_200",
+        "class_300_400",
+        "class_500",
+        "class_700",
+        "class_800",
+        "class_900",
+        "total",
+    ]
+
+    # Remove
+    remove = ["55-L", "35-HTF", "MDO-CP"]
+    for dept_code in remove:
+
+        sel = df["dept_code"] == dept_code
+        if sel.sum():
+            dept_major_code = dept_code[:2]
+            sel2 = df["dept_code"] == dept_major_code  # Add to generic dept
+            df.loc[sel2, class_columns] += df.loc[sel, class_columns].values
+            df = df.loc[~sel]
+
+    df = df.reset_index(drop=True)
+    assert df["total"].sum() == total
+    return df
 
 
 def etl_data(start_year, kind):
@@ -135,8 +202,18 @@ def etl_data(start_year, kind):
     # Validate!
     validate(path, result)
 
-    # Save
-    out_path = DATA_DIR / "processed" / f"{path.stem}.csv"
+    # Save unformatted
+    out_path = DATA_DIR / "processed" / "master_sheets_original" / f"{path.stem}.csv"
+    result.to_csv(out_path, index=False)
+
+    # Format
+    result = transform_data(result, start_year)
+    out_path = (
+        DATA_DIR
+        / "processed"
+        / "master_sheets_transformed"
+        / f"FY{get_fy_tag(start_year)}-{kind}.csv"
+    )
     result.to_csv(out_path, index=False)
 
 

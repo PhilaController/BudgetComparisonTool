@@ -96,6 +96,7 @@ export default {
   props: [
     "width",
     "currentFiscalYear",
+    "startFiscalYear",
     "comparisonFiscalYears",
     "defaultComparisonFiscalYear",
     "budgetType",
@@ -110,7 +111,7 @@ export default {
   components: { Legend, VueGoodTable, ViewingOptions },
   data() {
     return {
-      margin: { top: 10, right: 5, bottom: 10, left: 5 },
+      margin: { top: 20, right: 5, bottom: 10, left: 5 },
 
       // Viewing options
       selectedComparisonFiscalYear: this.defaultComparisonFiscalYear,
@@ -265,7 +266,7 @@ export default {
           label: "Percent Change",
           field: "percent_diff",
           type: "number",
-          formatFn: (d) => (isFinite(d) ? percentFn(d) : "—"),
+          formatFn: this.percentFn,
         }
       );
       return cols;
@@ -426,6 +427,9 @@ export default {
     },
   },
   methods: {
+    percentFn(d) {
+      return isFinite(d) && d !== null ? percentFn(d) : "—";
+    },
     updateTotalChangeColor() {
       // Green or red?
       if (this.totalChange > 0) {
@@ -492,6 +496,7 @@ export default {
         if (!this.hasSummaryRow()) this.addSummaryRow();
 
         let rows = $(this.$refs.budgetTable.$el).find("tr");
+
         let cellType =
           this.tableConfig.grouped.indexOf(this.viewingMode) !== -1
             ? "th"
@@ -612,7 +617,7 @@ export default {
 
       // Maximum possible dollar difference
       let col_new = `${this.currentFiscalYear} (${this.budgetType})`;
-      let col_old = this.selectedComparisonFiscalYear;
+      let col_old = `${this.startFiscalYear} (Adopted)`;
       let diffMax = d3.max(data, (d) => Math.abs(d[col_new] - d[col_old]));
       return d3
         .scalePow()

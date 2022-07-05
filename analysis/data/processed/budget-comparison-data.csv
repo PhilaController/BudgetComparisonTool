@@ -1,498 +1,498 @@
-dept_name,name,category_code_description,major_class_description,2020 (Adopted),2021 (Adopted),2022 (Adopted),2022 (Proposed),2023 (Proposed)
-Art Museum,Art Museum,"Economic Development, Culture, and Recreation",Personal Services,0.0,0.0,0.0,0.0,0.0
-Atwater Kent,Atwater Kent,"Economic Development, Culture, and Recreation",Personal Services,0.0,0.0,0.0,0.0,0.0
-Behavioral Health,Behavioral Health,Social Services,Personal Services,1534468.0,1546510.0,2980922.0,2980922.0,3554824.0
-Board of Ethics,Board of Ethics,General Government,Personal Services,1041630.0,915196.0,915196.0,915196.0,1100255.0
-Revision of Taxes,Board of Revision of Taxes,General Government,Personal Services,962864.0,987587.0,997835.0,997835.0,1030360.0
-City Commissioners,City Commissioners,General Government,Personal Services,6633233.0,6714174.0,8413534.0,8413534.0,10891604.0
-City Controller,City Controller,General Government,Personal Services,8862100.0,9045839.0,9330839.0,8955839.0,10228948.0
-City Council,City Council,General Government,Personal Services,15427138.0,14877138.0,15627138.0,15379138.0,15960750.0
-Civil Service Commission,Civil Service Commission,General Government,Personal Services,174341.0,177148.0,177148.0,177148.0,180988.0
-Human Relations ,Human Relations Commission,General Government,Personal Services,2323714.0,2360285.0,2325040.0,2325040.0,2495189.0
-Human Services,Human Services,Social Services,Personal Services,27646449.0,31673433.0,32182866.0,32182866.0,34348905.0
-Licenses & Inspections,Licenses & Inspections,General Government,Personal Services,25967209.0,23970217.0,24577968.0,24608806.0,26590298.0
-Parks & Rec,Parks & Rec,"Economic Development, Culture, and Recreation",Personal Services,52490935.0,46921787.0,52352786.0,52352786.0,56916061.0
-Planning & Development,Planning & Development,"Economic Development, Culture, and Recreation",Personal Services,5167172.0,4834959.0,4873604.0,4873604.0,5735470.0
-Public Health,Public Health,Health & Sanitation,Personal Services,58328165.0,57654465.0,59267291.0,58752291.0,62683660.0
-Public Property,Public Property,General Government,Personal Services,9395654.0,10101149.0,10098527.0,10098527.0,10700937.0
-Public Property,SEPTA Subsidy,"Economic Development, Culture, and Recreation",Personal Services,0.0,0.0,0.0,0.0,0.0
-Public Property,Space Rentals,General Government,Personal Services,0.0,0.0,0.0,0.0,0.0
-Public Property,Utilities,General Government,Personal Services,0.0,0.0,0.0,0.0,0.0
-Records,Records,General Government,Personal Services,3226285.0,3117312.0,3009970.0,3009970.0,3364422.0
-Revenue,Revenue,General Government,Personal Services,23934508.0,22648673.0,20380548.0,20380548.0,21756185.0
-District Attorney,District Attorney,Public Safety,Personal Services,35016343.0,30262904.0,36562904.0,36562904.0,39428794.0
-Fire,Fire,Public Safety,Personal Services,273966292.0,289256642.0,332992022.0,332992022.0,354272272.0
-First Judicial District,First Judicial District,Public Safety,Personal Services,104792068.0,105324122.0,105324122.0,104868556.0,108950101.0
-Board of Bldg. Stds.,L&I: Board of Building Standards,General Government,Personal Services,80366.0,82018.0,82018.0,82018.0,84116.0
-Board of Review,L&I: Board of Review,General Government,Personal Services,163434.0,165635.0,165635.0,165635.0,170377.0
-Labor,Labor,General Government,Personal Services,2065091.0,2395467.0,2939422.0,2939422.0,3414271.0
-Law,Law,General Government,Personal Services,9427335.0,9520003.0,13329167.0,14452037.0,15307139.0
-Managing Director,Legal Services,Public Safety,Personal Services,0.0,0.0,0.0,0.0,0.0
-Managing Director,Managing Director,General Government,Personal Services,23170579.0,36119907.0,43754013.0,42224013.0,35448189.0
-Mayor,Mayor,General Government,Personal Services,5393827.0,5775991.0,5892600.0,5892600.0,6123607.0
-Mayor,Mayor: Scholarships,Education,Personal Services,0.0,0.0,0.0,0.0,0.0
-Community Empowerment,Community Empowerment and Opportunity,Social Services,Personal Services,90000.0,45000.0,45000.0,45000.0,177185.0
-Mural Arts,Mural Arts,"Economic Development, Culture, and Recreation",Personal Services,638987.0,578952.0,586569.0,629992.0,598075.0
-Arts & Culture,"Arts, Culture, and the Creative Economy","Economic Development, Culture, and Recreation",Personal Services,508300.0,0.0,0.0,0.0,0.0
-Children and Families,Children and Families,Education,Personal Services,3292180.0,418820.0,442000.0,442000.0,453946.0
-Fleet,Vehicle Purchases/Leases,General Government,Personal Services,0.0,0.0,0.0,0.0,0.0
-Fleet,Fleet,General Government,Personal Services,19416871.0,19073455.0,19260680.0,18695138.0,20510205.0
-Homeless Services,Homeless Services,Social Services,Personal Services,9545748.0,8068689.0,9307467.0,9307467.0,9881368.0
-Human Resources,Human Resources,General Government,Personal Services,5555785.0,5290733.0,5223802.0,5053802.0,5753121.0
-Innovation and Technology,911 Services,General Government,Personal Services,1416547.0,1341547.0,1341547.0,1341547.0,1416547.0
-Innovation and Technology,Innovation and Technology,General Government,Personal Services,22462148.0,22822147.0,26789649.0,29657871.0,30744051.0
-Property Assessment,Property Assessment,General Government,Personal Services,14127682.0,12918061.0,14395213.0,14395213.0,15524777.0
-Sustainability,Sustainability,General Government,Personal Services,551910.0,603814.0,722621.0,722621.0,870116.0
-Chief Admin. Officer,Chief Administrative Officer,General Government,Personal Services,4784551.0,4256565.0,5062173.0,5062173.0,6238627.0
-City Rep,City Representative,"Economic Development, Culture, and Recreation",Personal Services,795916.0,0.0,0.0,0.0,0.0
-City Treasurer,City Treasurer,General Government,Personal Services,1262499.0,1368170.0,1395075.0,1395075.0,1554893.0
-Commerce,Convention Center Subsidy,"Economic Development, Culture, and Recreation",Personal Services,0.0,0.0,0.0,0.0,0.0
-Commerce,Economic Stimulus,"Economic Development, Culture, and Recreation",Personal Services,0.0,0.0,0.0,0.0,0.0
-Commerce,Commerce,"Economic Development, Culture, and Recreation",Personal Services,3469881.0,2394341.0,3614341.0,2714341.0,5322555.0
-Finance,Budget Stabilization Reserve,General Government,Personal Services,0.0,0.0,0.0,0.0,0.0
-Finance,Community College Subsidy,Education,Personal Services,0.0,0.0,0.0,0.0,0.0
-Finance,Employee Benefits,Pension and Fringe Benefits,Personal Services,1411963002.0,1287159003.0,1438592740.0,1434553835.0,1603396709.0
-Finance,Hero Awards,Education,Personal Services,0.0,0.0,0.0,0.0,0.0
-Finance,Indemnities,General Government,Personal Services,0.0,0.0,0.0,0.0,0.0
-Finance,Recession Reserve,General Government,Personal Services,0.0,0.0,0.0,0.0,0.0
-Finance,Refunds,General Government,Personal Services,0.0,0.0,0.0,0.0,0.0
-Finance,Disability Reg #32 Payroll,Pension and Fringe Benefits,Personal Services,2650000.0,2650000.0,2293165.0,2650000.0,2800000.0
-Finance,School District Contribution,Education,Personal Services,0.0,0.0,0.0,0.0,0.0
-Finance,Witness Fees,Public Safety,Personal Services,0.0,0.0,0.0,0.0,0.0
-Finance,Finance,General Government,Personal Services,9084313.0,10312396.0,10185891.0,9869056.0,10718490.0
-Inspector General,Inspector General,General Government,Personal Services,1577241.0,1472481.0,1504223.0,1504223.0,2148400.0
-Sheriff,Sheriff,Public Safety,Personal Services,25443537.0,25192450.0,25192450.0,25192450.0,26844230.0
-Prisons,Prisons,Public Safety,Personal Services,139765668.0,126599446.0,132739167.0,126635188.0,135495470.0
-Police,Police,Public Safety,Personal Services,718359324.0,704077967.0,704349409.0,704349409.0,752550599.0
-Procurement,Procurement,General Government,Personal Services,2709242.0,2436508.0,2648235.0,2648235.0,3298639.0
-Register of Wills,Register of Wills,Public Safety,Personal Services,4286409.0,3956193.0,3956193.0,3856193.0,4130872.0
-Debt Service,Debt Service,Debt Service,Personal Services,0.0,0.0,0.0,0.0,0.0
-Streets,Streets,Health & Sanitation,Personal Services,90464913.0,87283619.0,90986330.0,90986330.0,122120102.0
-Streets,Streets: Disposal,Health & Sanitation,Personal Services,0.0,0.0,0.0,0.0,0.0
-Free Library,Free Library,"Economic Development, Culture, and Recreation",Personal Services,40633647.0,35549343.0,38171857.0,38171857.0,50220431.0
-Art Museum,Art Museum,"Economic Development, Culture, and Recreation",Purchase of Services,0.0,0.0,0.0,0.0,0.0
-Atwater Kent,Atwater Kent,"Economic Development, Culture, and Recreation",Purchase of Services,0.0,0.0,0.0,0.0,0.0
-Behavioral Health,Behavioral Health,Social Services,Purchase of Services,14360976.0,13930892.0,20522810.0,20522810.0,23723599.0
-Board of Ethics,Board of Ethics,General Government,Purchase of Services,52500.0,52500.0,52500.0,52500.0,52500.0
-Revision of Taxes,Board of Revision of Taxes,General Government,Purchase of Services,75200.0,37900.0,37900.0,37900.0,37900.0
-City Commissioners,City Commissioners,General Government,Purchase of Services,5011061.0,5011061.0,6862101.0,6862101.0,9285101.0
-City Controller,City Controller,General Government,Purchase of Services,497450.0,497450.0,497450.0,497450.0,497450.0
-City Council,City Council,General Government,Purchase of Services,1971885.0,1976885.0,2521885.0,2121885.0,2521885.0
-Civil Service Commission,Civil Service Commission,General Government,Purchase of Services,29500.0,29500.0,29500.0,29500.0,29500.0
-Human Relations ,Human Relations Commission,General Government,Purchase of Services,34657.0,34657.0,34657.0,34657.0,43333.0
-Human Services,Human Services,Social Services,Purchase of Services,89248594.0,129305230.0,142585334.0,140710334.0,151445655.0
-Licenses & Inspections,Licenses & Inspections,General Government,Purchase of Services,14403945.0,13447002.0,13522002.0,13522002.0,13146162.0
-Parks & Rec,Parks & Rec,"Economic Development, Culture, and Recreation",Purchase of Services,7115490.0,4482142.0,5659542.0,5659542.0,6975582.0
-Planning & Development,Planning & Development,"Economic Development, Culture, and Recreation",Purchase of Services,5192113.0,3619463.0,5619463.0,3619463.0,3839463.0
-Public Health,Public Health,Health & Sanitation,Purchase of Services,90224827.0,90506143.0,95447448.0,95447448.0,88784022.0
-Public Property,Public Property,General Government,Purchase of Services,31314408.0,30549657.0,35725814.0,35725814.0,37608915.0
-Public Property,SEPTA Subsidy,"Economic Development, Culture, and Recreation",Purchase of Services,87556000.0,84608000.0,91214000.0,91214000.0,100699000.0
-Public Property,Space Rentals,General Government,Purchase of Services,26278677.0,25567715.0,30631626.0,30249634.0,31124135.0
-Public Property,Utilities,General Government,Purchase of Services,27393339.0,25447623.0,24875748.0,24875748.0,25291034.0
-Records,Records,General Government,Purchase of Services,1538779.0,743265.0,758985.0,758985.0,758985.0
-Revenue,Revenue,General Government,Purchase of Services,7755749.0,5787749.0,5787749.0,6087749.0,4106407.0
-District Attorney,District Attorney,Public Safety,Purchase of Services,3367172.0,2693738.0,3343738.0,3343738.0,3343738.0
-Fire,Fire,Public Safety,Purchase of Services,6516272.0,6724702.0,6728143.0,6728143.0,7068282.0
-First Judicial District,First Judicial District,Public Safety,Purchase of Services,8480039.0,8480039.0,8643039.0,8643039.0,8643039.0
-Board of Bldg. Stds.,L&I: Board of Building Standards,General Government,Purchase of Services,0.0,0.0,0.0,0.0,0.0
-Board of Review,L&I: Board of Review,General Government,Purchase of Services,10436.0,10436.0,10436.0,10436.0,10436.0
-Labor,Labor,General Government,Purchase of Services,321277.0,357217.0,352817.0,352817.0,462617.0
-Law,Law,General Government,Purchase of Services,6409034.0,5309427.0,5433427.0,4668260.0,5979915.0
-Managing Director,Legal Services,Public Safety,Purchase of Services,50439541.0,50104181.0,52404449.0,50938782.0,52487199.0
-Managing Director,Managing Director,General Government,Purchase of Services,31472162.0,31588550.0,74021183.0,44477850.0,83855209.0
-Mayor,Mayor,General Government,Purchase of Services,684965.0,646260.0,780260.0,780260.0,815680.0
-Mayor,Mayor: Scholarships,Education,Purchase of Services,0.0,0.0,0.0,0.0,0.0
-Community Empowerment,Community Empowerment and Opportunity,Social Services,Purchase of Services,0.0,0.0,1464000.0,0.0,1714007.0
-Mural Arts,Mural Arts,"Economic Development, Culture, and Recreation",Purchase of Services,1860615.0,1545610.0,2065610.0,1695610.0,1920610.0
-Arts & Culture,"Arts, Culture, and the Creative Economy","Economic Development, Culture, and Recreation",Purchase of Services,212014.0,0.0,0.0,0.0,0.0
-Children and Families,Children and Families,Education,Purchase of Services,42015834.0,0.0,0.0,0.0,0.0
-Fleet,Vehicle Purchases/Leases,General Government,Purchase of Services,0.0,0.0,0.0,0.0,0.0
-Fleet,Fleet,General Government,Purchase of Services,5305396.0,5353396.0,5401396.0,5401396.0,5449396.0
-Homeless Services,Homeless Services,Social Services,Purchase of Services,50023423.0,35593350.0,45637327.0,45637327.0,58638836.0
-Human Resources,Human Resources,General Government,Purchase of Services,1229070.0,877570.0,1177570.0,997570.0,966067.0
-Innovation and Technology,911 Services,General Government,Purchase of Services,26280561.0,29159009.0,21928631.0,21928631.0,20150466.0
-Innovation and Technology,Innovation and Technology,General Government,Purchase of Services,42805345.0,46576598.0,48768639.0,48514689.0,53368720.0
-Property Assessment,Property Assessment,General Government,Purchase of Services,2403126.0,2420632.0,2026020.0,2026020.0,1926020.0
-Sustainability,Sustainability,General Government,Purchase of Services,393508.0,423366.0,675966.0,473366.0,271366.0
-Chief Admin. Officer,Chief Administrative Officer,General Government,Purchase of Services,2627049.0,2050549.0,3865698.0,3865698.0,6327056.0
-City Rep,City Representative,"Economic Development, Culture, and Recreation",Purchase of Services,399779.0,0.0,0.0,0.0,0.0
-City Treasurer,City Treasurer,General Government,Purchase of Services,198444.0,193544.0,3323698.0,193544.0,3116468.0
-Commerce,Convention Center Subsidy,"Economic Development, Culture, and Recreation",Purchase of Services,15000000.0,15000000.0,15000000.0,15000000.0,15000000.0
-Commerce,Economic Stimulus,"Economic Development, Culture, and Recreation",Purchase of Services,7671624.0,3015000.0,6015000.0,3015000.0,13334550.0
-Commerce,Commerce,"Economic Development, Culture, and Recreation",Purchase of Services,5854826.0,1216153.0,10499099.0,4657989.0,8560549.0
-Finance,Budget Stabilization Reserve,General Government,Purchase of Services,0.0,0.0,0.0,0.0,0.0
-Finance,Community College Subsidy,Education,Purchase of Services,0.0,0.0,0.0,0.0,0.0
-Finance,Employee Benefits,Pension and Fringe Benefits,Purchase of Services,0.0,0.0,0.0,0.0,0.0
-Finance,Hero Awards,Education,Purchase of Services,0.0,0.0,0.0,0.0,0.0
-Finance,Indemnities,General Government,Purchase of Services,0.0,0.0,0.0,0.0,0.0
-Finance,Recession Reserve,General Government,Purchase of Services,0.0,0.0,0.0,0.0,0.0
-Finance,Refunds,General Government,Purchase of Services,0.0,0.0,0.0,0.0,0.0
-Finance,Disability Reg #32 Payroll,Pension and Fringe Benefits,Purchase of Services,0.0,0.0,0.0,0.0,0.0
-Finance,School District Contribution,Education,Purchase of Services,0.0,0.0,0.0,0.0,0.0
-Finance,Witness Fees,Public Safety,Purchase of Services,171518.0,171518.0,171518.0,171518.0,171518.0
-Finance,Finance,General Government,Purchase of Services,3029912.0,2626660.0,3475113.0,3439267.0,3964949.0
-Inspector General,Inspector General,General Government,Purchase of Services,97975.0,97975.0,97975.0,97975.0,97975.0
-Sheriff,Sheriff,Public Safety,Purchase of Services,894517.0,1105267.0,1105267.0,1105267.0,1305267.0
-Prisons,Prisons,Public Safety,Purchase of Services,92842354.0,88351948.0,98210934.0,97960934.0,104696211.0
-Police,Police,Public Safety,Purchase of Services,8353063.0,10135755.0,10418373.0,10418373.0,12667116.0
-Procurement,Procurement,General Government,Purchase of Services,2916267.0,2283634.0,3395744.0,2795744.0,3431115.0
-Register of Wills,Register of Wills,Public Safety,Purchase of Services,125000.0,125000.0,185000.0,125000.0,406959.0
-Debt Service,Debt Service,Debt Service,Purchase of Services,109222498.0,96918314.0,104560657.0,104560657.0,115087498.0
-Streets,Streets,Health & Sanitation,Purchase of Services,10470639.0,8050100.0,8417345.0,8417345.0,13325345.0
-Streets,Streets: Disposal,Health & Sanitation,Purchase of Services,48340013.0,51462580.0,59762580.0,59762580.0,55027802.0
-Free Library,Free Library,"Economic Development, Culture, and Recreation",Purchase of Services,2824077.0,2259262.0,2772879.0,2615022.0,3496262.0
-Art Museum,Art Museum,"Economic Development, Culture, and Recreation",Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Atwater Kent,Atwater Kent,"Economic Development, Culture, and Recreation",Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Behavioral Health,Behavioral Health,Social Services,Materials/Equip.,0.0,0.0,43200.0,43200.0,0.0
-Board of Ethics,Board of Ethics,General Government,Materials/Equip.,7500.0,7500.0,7500.0,7500.0,7500.0
-Revision of Taxes,Board of Revision of Taxes,General Government,Materials/Equip.,22727.0,17727.0,17727.0,17727.0,17727.0
-City Commissioners,City Commissioners,General Government,Materials/Equip.,572617.0,572617.0,2771217.0,2771217.0,2649217.0
-City Controller,City Controller,General Government,Materials/Equip.,25000.0,25000.0,25000.0,25000.0,25000.0
-City Council,City Council,General Government,Materials/Equip.,528650.0,428650.0,528650.0,528650.0,528650.0
-Civil Service Commission,Civil Service Commission,General Government,Materials/Equip.,1094.0,1094.0,1094.0,1094.0,1094.0
-Human Relations ,Human Relations Commission,General Government,Materials/Equip.,28031.0,28031.0,28031.0,28031.0,28031.0
-Human Services,Human Services,Social Services,Materials/Equip.,2069970.0,2111970.0,2111970.0,2111970.0,2111970.0
-Licenses & Inspections,Licenses & Inspections,General Government,Materials/Equip.,911397.0,834475.0,834475.0,834475.0,809475.0
-Parks & Rec,Parks & Rec,"Economic Development, Culture, and Recreation",Materials/Equip.,2740630.0,2022225.0,2552225.0,2552225.0,2754425.0
-Planning & Development,Planning & Development,"Economic Development, Culture, and Recreation",Materials/Equip.,101461.0,80761.0,80761.0,80761.0,89761.0
-Public Health,Public Health,Health & Sanitation,Materials/Equip.,7519148.0,6768973.0,7366053.0,7366053.0,6746403.0
-Public Property,Public Property,General Government,Materials/Equip.,1338535.0,1338535.0,1338535.0,1338535.0,1338535.0
-Public Property,SEPTA Subsidy,"Economic Development, Culture, and Recreation",Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Public Property,Space Rentals,General Government,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Public Property,Utilities,General Government,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Records,Records,General Government,Materials/Equip.,143758.0,143758.0,143758.0,143758.0,143758.0
-Revenue,Revenue,General Government,Materials/Equip.,1188976.0,774976.0,774976.0,774976.0,774976.0
-District Attorney,District Attorney,Public Safety,Materials/Equip.,525021.0,420017.0,525017.0,525017.0,533417.0
-Fire,Fire,Public Safety,Materials/Equip.,8831714.0,9192914.0,11275064.0,11275064.0,12445064.0
-First Judicial District,First Judicial District,Public Safety,Materials/Equip.,2231868.0,2231868.0,2231868.0,2231868.0,2231868.0
-Board of Bldg. Stds.,L&I: Board of Building Standards,General Government,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Board of Review,L&I: Board of Review,General Government,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Labor,Labor,General Government,Materials/Equip.,68460.0,86420.0,21420.0,21420.0,24420.0
-Law,Law,General Government,Materials/Equip.,248676.0,184676.0,184676.0,184676.0,190676.0
-Managing Director,Legal Services,Public Safety,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Managing Director,Managing Director,General Government,Materials/Equip.,1136979.0,1556787.0,4509265.0,4059265.0,2418018.0
-Mayor,Mayor,General Government,Materials/Equip.,34841.0,41341.0,41341.0,41341.0,31341.0
-Mayor,Mayor: Scholarships,Education,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Community Empowerment,Community Empowerment and Opportunity,Social Services,Materials/Equip.,0.0,0.0,0.0,0.0,3808.0
-Mural Arts,Mural Arts,"Economic Development, Culture, and Recreation",Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Arts & Culture,"Arts, Culture, and the Creative Economy","Economic Development, Culture, and Recreation",Materials/Equip.,7000.0,0.0,0.0,0.0,0.0
-Children and Families,Children and Families,Education,Materials/Equip.,42000.0,0.0,0.0,0.0,0.0
-Fleet,Vehicle Purchases/Leases,General Government,Materials/Equip.,17286549.0,9797739.0,9745852.0,9307852.0,9307852.0
-Fleet,Fleet,General Government,Materials/Equip.,25391767.0,22376873.0,20684642.0,20684642.0,23232642.0
-Homeless Services,Homeless Services,Social Services,Materials/Equip.,344127.0,344127.0,344127.0,344127.0,344127.0
-Human Resources,Human Resources,General Government,Materials/Equip.,89432.0,69432.0,69432.0,69432.0,69432.0
-Innovation and Technology,911 Services,General Government,Materials/Equip.,13537978.0,23064399.0,8064399.0,8064399.0,8064399.0
-Innovation and Technology,Innovation and Technology,General Government,Materials/Equip.,5931046.0,6396428.0,3229295.0,2983610.0,2986610.0
-Property Assessment,Property Assessment,General Government,Materials/Equip.,787600.0,762600.0,362600.0,362600.0,362600.0
-Sustainability,Sustainability,General Government,Materials/Equip.,17840.0,1000.0,1000.0,1000.0,1000.0
-Chief Admin. Officer,Chief Administrative Officer,General Government,Materials/Equip.,26665.0,26665.0,2016665.0,2016665.0,2082265.0
-City Rep,City Representative,"Economic Development, Culture, and Recreation",Materials/Equip.,54000.0,0.0,0.0,0.0,0.0
-City Treasurer,City Treasurer,General Government,Materials/Equip.,22224.0,22224.0,22224.0,22224.0,22224.0
-Commerce,Convention Center Subsidy,"Economic Development, Culture, and Recreation",Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Commerce,Economic Stimulus,"Economic Development, Culture, and Recreation",Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Commerce,Commerce,"Economic Development, Culture, and Recreation",Materials/Equip.,26654.0,26654.0,26654.0,26654.0,62654.0
-Finance,Budget Stabilization Reserve,General Government,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Finance,Community College Subsidy,Education,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Finance,Employee Benefits,Pension and Fringe Benefits,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Finance,Hero Awards,Education,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Finance,Indemnities,General Government,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Finance,Recession Reserve,General Government,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Finance,Refunds,General Government,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Finance,Disability Reg #32 Payroll,Pension and Fringe Benefits,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Finance,School District Contribution,Education,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Finance,Witness Fees,Public Safety,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Finance,Finance,General Government,Materials/Equip.,103109.0,35616.0,35616.0,35616.0,38616.0
-Inspector General,Inspector General,General Government,Materials/Equip.,5225.0,5225.0,5225.0,5225.0,5225.0
-Sheriff,Sheriff,Public Safety,Materials/Equip.,708907.0,498157.0,498157.0,498157.0,848157.0
-Prisons,Prisons,Public Safety,Materials/Equip.,4373744.0,4016769.0,5499455.0,5499455.0,4674595.0
-Police,Police,Public Safety,Materials/Equip.,14452710.0,12794012.0,14579952.0,12239952.0,16549152.0
-Procurement,Procurement,General Government,Materials/Equip.,49054.0,40194.0,12359.0,12359.0,39359.0
-Register of Wills,Register of Wills,Public Safety,Materials/Equip.,140236.0,140236.0,140236.0,140236.0,140236.0
-Debt Service,Debt Service,Debt Service,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Streets,Streets,Health & Sanitation,Materials/Equip.,7704196.0,6172885.0,14215207.0,14215207.0,21994981.0
-Streets,Streets: Disposal,Health & Sanitation,Materials/Equip.,0.0,0.0,0.0,0.0,0.0
-Free Library,Free Library,"Economic Development, Culture, and Recreation",Materials/Equip.,2302659.0,1842128.0,1842128.0,1842128.0,2042128.0
-Art Museum,Art Museum,"Economic Development, Culture, and Recreation",Contrib./Indemnities,2550000.0,2040000.0,2040000.0,2040000.0,2040000.0
-Atwater Kent,Atwater Kent,"Economic Development, Culture, and Recreation",Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Behavioral Health,Behavioral Health,Social Services,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Board of Ethics,Board of Ethics,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Revision of Taxes,Board of Revision of Taxes,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-City Commissioners,City Commissioners,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-City Controller,City Controller,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-City Council,City Council,General Government,Contrib./Indemnities,100.0,25000100.0,100.0,100.0,100.0
-Civil Service Commission,Civil Service Commission,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Human Relations ,Human Relations Commission,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Human Services,Human Services,Social Services,Contrib./Indemnities,0.0,0.0,1393638.0,1393638.0,0.0
-Licenses & Inspections,Licenses & Inspections,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Parks & Rec,Parks & Rec,"Economic Development, Culture, and Recreation",Contrib./Indemnities,2711000.0,1500000.0,2000000.0,1500000.0,1500000.0
-Planning & Development,Planning & Development,"Economic Development, Culture, and Recreation",Contrib./Indemnities,1350000.0,0.0,6500000.0,0.0,3000000.0
-Public Health,Public Health,Health & Sanitation,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Public Property,Public Property,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Public Property,SEPTA Subsidy,"Economic Development, Culture, and Recreation",Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Public Property,Space Rentals,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Public Property,Utilities,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Records,Records,General Government,Contrib./Indemnities,1456.0,0.0,0.0,0.0,0.0
-Revenue,Revenue,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-District Attorney,District Attorney,Public Safety,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Fire,Fire,Public Safety,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-First Judicial District,First Judicial District,Public Safety,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Board of Bldg. Stds.,L&I: Board of Building Standards,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Board of Review,L&I: Board of Review,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Labor,Labor,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Law,Law,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Managing Director,Legal Services,Public Safety,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Managing Director,Managing Director,General Government,Contrib./Indemnities,0.0,1350000.0,3300000.0,2500000.0,3000000.0
-Mayor,Mayor,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Mayor,Mayor: Scholarships,Education,Contrib./Indemnities,200000.0,100000.0,100000.0,100000.0,100000.0
-Community Empowerment,Community Empowerment and Opportunity,Social Services,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Mural Arts,Mural Arts,"Economic Development, Culture, and Recreation",Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Arts & Culture,"Arts, Culture, and the Creative Economy","Economic Development, Culture, and Recreation",Contrib./Indemnities,3370688.0,0.0,0.0,0.0,0.0
-Children and Families,Children and Families,Education,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Fleet,Vehicle Purchases/Leases,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Fleet,Fleet,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Homeless Services,Homeless Services,Social Services,Contrib./Indemnities,32421.0,32421.0,32421.0,32421.0,32421.0
-Human Resources,Human Resources,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Innovation and Technology,911 Services,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Innovation and Technology,Innovation and Technology,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Property Assessment,Property Assessment,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Sustainability,Sustainability,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Chief Admin. Officer,Chief Administrative Officer,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-City Rep,City Representative,"Economic Development, Culture, and Recreation",Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-City Treasurer,City Treasurer,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Commerce,Convention Center Subsidy,"Economic Development, Culture, and Recreation",Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Commerce,Economic Stimulus,"Economic Development, Culture, and Recreation",Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Commerce,Commerce,"Economic Development, Culture, and Recreation",Contrib./Indemnities,500000.0,0.0,500000.0,0.0,505000.0
-Finance,Budget Stabilization Reserve,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Finance,Community College Subsidy,Education,Contrib./Indemnities,33759207.0,44110159.0,48128075.0,48128075.0,50106653.0
-Finance,Employee Benefits,Pension and Fringe Benefits,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Finance,Hero Awards,Education,Contrib./Indemnities,25000.0,25000.0,25000.0,25000.0,50000.0
-Finance,Indemnities,General Government,Contrib./Indemnities,49246000.0,49246000.0,49246000.0,49246000.0,49246000.0
-Finance,Recession Reserve,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Finance,Refunds,General Government,Contrib./Indemnities,250000.0,250000.0,250000.0,250000.0,250000.0
-Finance,Disability Reg #32 Payroll,Pension and Fringe Benefits,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Finance,School District Contribution,Education,Contrib./Indemnities,222456410.0,252578558.0,255953201.0,255953201.0,269953201.0
-Finance,Witness Fees,Public Safety,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Finance,Finance,General Government,Contrib./Indemnities,4725000.0,1250000.0,16069700.0,1415700.0,4504000.0
-Inspector General,Inspector General,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Sheriff,Sheriff,Public Safety,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Prisons,Prisons,Public Safety,Contrib./Indemnities,1201757.0,1201757.0,1201757.0,1201757.0,1201757.0
-Police,Police,Public Safety,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Procurement,Procurement,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Register of Wills,Register of Wills,Public Safety,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Debt Service,Debt Service,Debt Service,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Streets,Streets,Health & Sanitation,Contrib./Indemnities,53171.0,53171.0,53171.0,53171.0,53171.0
-Streets,Streets: Disposal,Health & Sanitation,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Free Library,Free Library,"Economic Development, Culture, and Recreation",Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0
-Art Museum,Art Museum,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0
-Atwater Kent,Atwater Kent,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0
-Behavioral Health,Behavioral Health,Social Services,Debt Service,0.0,0.0,0.0,0.0,0.0
-Board of Ethics,Board of Ethics,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Revision of Taxes,Board of Revision of Taxes,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-City Commissioners,City Commissioners,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-City Controller,City Controller,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-City Council,City Council,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Civil Service Commission,Civil Service Commission,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Human Relations ,Human Relations Commission,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Human Services,Human Services,Social Services,Debt Service,0.0,0.0,0.0,0.0,0.0
-Licenses & Inspections,Licenses & Inspections,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Parks & Rec,Parks & Rec,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0
-Planning & Development,Planning & Development,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0
-Public Health,Public Health,Health & Sanitation,Debt Service,0.0,0.0,0.0,0.0,0.0
-Public Property,Public Property,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Public Property,SEPTA Subsidy,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0
-Public Property,Space Rentals,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Public Property,Utilities,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Records,Records,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Revenue,Revenue,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-District Attorney,District Attorney,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0
-Fire,Fire,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0
-First Judicial District,First Judicial District,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0
-Board of Bldg. Stds.,L&I: Board of Building Standards,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Board of Review,L&I: Board of Review,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Labor,Labor,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Law,Law,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Managing Director,Legal Services,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0
-Managing Director,Managing Director,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Mayor,Mayor,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Mayor,Mayor: Scholarships,Education,Debt Service,0.0,0.0,0.0,0.0,0.0
-Community Empowerment,Community Empowerment and Opportunity,Social Services,Debt Service,0.0,0.0,0.0,0.0,0.0
-Mural Arts,Mural Arts,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0
-Arts & Culture,"Arts, Culture, and the Creative Economy","Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0
-Children and Families,Children and Families,Education,Debt Service,0.0,0.0,0.0,0.0,0.0
-Fleet,Vehicle Purchases/Leases,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Fleet,Fleet,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Homeless Services,Homeless Services,Social Services,Debt Service,0.0,0.0,0.0,0.0,0.0
-Human Resources,Human Resources,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Innovation and Technology,911 Services,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Innovation and Technology,Innovation and Technology,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Property Assessment,Property Assessment,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Sustainability,Sustainability,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Chief Admin. Officer,Chief Administrative Officer,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-City Rep,City Representative,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0
-City Treasurer,City Treasurer,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Commerce,Convention Center Subsidy,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0
-Commerce,Economic Stimulus,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0
-Commerce,Commerce,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0
-Finance,Budget Stabilization Reserve,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Finance,Community College Subsidy,Education,Debt Service,0.0,0.0,0.0,0.0,0.0
-Finance,Employee Benefits,Pension and Fringe Benefits,Debt Service,0.0,0.0,0.0,0.0,0.0
-Finance,Hero Awards,Education,Debt Service,0.0,0.0,0.0,0.0,0.0
-Finance,Indemnities,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Finance,Recession Reserve,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Finance,Refunds,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Finance,Disability Reg #32 Payroll,Pension and Fringe Benefits,Debt Service,0.0,0.0,0.0,0.0,0.0
-Finance,School District Contribution,Education,Debt Service,0.0,0.0,0.0,0.0,0.0
-Finance,Witness Fees,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0
-Finance,Finance,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Inspector General,Inspector General,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Sheriff,Sheriff,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0
-Prisons,Prisons,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0
-Police,Police,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0
-Procurement,Procurement,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0
-Register of Wills,Register of Wills,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0
-Debt Service,Debt Service,Debt Service,Debt Service,187482819.0,185714117.0,192666858.0,192666858.0,193710223.0
-Streets,Streets,Health & Sanitation,Debt Service,0.0,0.0,0.0,0.0,0.0
-Streets,Streets: Disposal,Health & Sanitation,Debt Service,0.0,0.0,0.0,0.0,0.0
-Free Library,Free Library,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0
-Art Museum,Art Museum,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Atwater Kent,Atwater Kent,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Behavioral Health,Behavioral Health,Social Services,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Board of Ethics,Board of Ethics,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Revision of Taxes,Board of Revision of Taxes,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-City Commissioners,City Commissioners,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-City Controller,City Controller,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-City Council,City Council,General Government,Payments to Other Funds,100.0,100.0,100.0,100.0,100.0
-Civil Service Commission,Civil Service Commission,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Human Relations ,Human Relations Commission,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Human Services,Human Services,Social Services,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Licenses & Inspections,Licenses & Inspections,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Parks & Rec,Parks & Rec,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Planning & Development,Planning & Development,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Public Health,Public Health,Health & Sanitation,Payments to Other Funds,4500000.0,4423404.0,923404.0,923404.0,923404.0
-Public Property,Public Property,General Government,Payments to Other Funds,26643000.0,28235000.0,26262470.0,26262470.0,27184004.0
-Public Property,SEPTA Subsidy,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Public Property,Space Rentals,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Public Property,Utilities,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Records,Records,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Revenue,Revenue,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-District Attorney,District Attorney,Public Safety,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Fire,Fire,Public Safety,Payments to Other Funds,9235000.0,9882000.0,10071000.0,10071000.0,7055640.0
-First Judicial District,First Judicial District,Public Safety,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Board of Bldg. Stds.,L&I: Board of Building Standards,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Board of Review,L&I: Board of Review,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Labor,Labor,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Law,Law,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Managing Director,Legal Services,Public Safety,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Managing Director,Managing Director,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Mayor,Mayor,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Mayor,Mayor: Scholarships,Education,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Community Empowerment,Community Empowerment and Opportunity,Social Services,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Mural Arts,Mural Arts,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Arts & Culture,"Arts, Culture, and the Creative Economy","Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Children and Families,Children and Families,Education,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Fleet,Vehicle Purchases/Leases,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Fleet,Fleet,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Homeless Services,Homeless Services,Social Services,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Human Resources,Human Resources,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Innovation and Technology,911 Services,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Innovation and Technology,Innovation and Technology,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Property Assessment,Property Assessment,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Sustainability,Sustainability,General Government,Payments to Other Funds,250000.0,175000.0,175000.0,175000.0,175000.0
-Chief Admin. Officer,Chief Administrative Officer,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-City Rep,City Representative,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-City Treasurer,City Treasurer,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Commerce,Convention Center Subsidy,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Commerce,Economic Stimulus,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Commerce,Commerce,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Finance,Budget Stabilization Reserve,General Government,Payments to Other Funds,34276000.0,0.0,0.0,0.0,0.0
-Finance,Community College Subsidy,Education,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Finance,Employee Benefits,Pension and Fringe Benefits,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Finance,Hero Awards,Education,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Finance,Indemnities,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Finance,Recession Reserve,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Finance,Refunds,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Finance,Disability Reg #32 Payroll,Pension and Fringe Benefits,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Finance,School District Contribution,Education,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Finance,Witness Fees,Public Safety,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Finance,Finance,General Government,Payments to Other Funds,28285000.0,24500000.0,11360000.0,11360000.0,27922480.0
-Inspector General,Inspector General,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Sheriff,Sheriff,Public Safety,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Prisons,Prisons,Public Safety,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Police,Police,Public Safety,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Procurement,Procurement,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Register of Wills,Register of Wills,Public Safety,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Debt Service,Debt Service,Debt Service,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Streets,Streets,Health & Sanitation,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Streets,Streets: Disposal,Health & Sanitation,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Free Library,Free Library,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0
-Art Museum,Art Museum,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Atwater Kent,Atwater Kent,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Behavioral Health,Behavioral Health,Social Services,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Board of Ethics,Board of Ethics,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Revision of Taxes,Board of Revision of Taxes,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-City Commissioners,City Commissioners,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-City Controller,City Controller,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-City Council,City Council,General Government,Advances & Misc.,100.0,100.0,100.0,100.0,100.0
-Civil Service Commission,Civil Service Commission,General Government,Advances & Misc.,0.0,0.0,25000000.0,25000000.0,10566357.0
-Human Relations ,Human Relations Commission,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Human Services,Human Services,Social Services,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Licenses & Inspections,Licenses & Inspections,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Parks & Rec,Parks & Rec,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Planning & Development,Planning & Development,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Public Health,Public Health,Health & Sanitation,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Public Property,Public Property,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Public Property,SEPTA Subsidy,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Public Property,Space Rentals,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Public Property,Utilities,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Records,Records,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Revenue,Revenue,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-District Attorney,District Attorney,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Fire,Fire,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-First Judicial District,First Judicial District,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Board of Bldg. Stds.,L&I: Board of Building Standards,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Board of Review,L&I: Board of Review,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Labor,Labor,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Law,Law,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Managing Director,Legal Services,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Managing Director,Managing Director,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Mayor,Mayor,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Mayor,Mayor: Scholarships,Education,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Community Empowerment,Community Empowerment and Opportunity,Social Services,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Mural Arts,Mural Arts,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Arts & Culture,"Arts, Culture, and the Creative Economy","Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Children and Families,Children and Families,Education,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Fleet,Vehicle Purchases/Leases,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Fleet,Fleet,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Homeless Services,Homeless Services,Social Services,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Human Resources,Human Resources,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Innovation and Technology,911 Services,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Innovation and Technology,Innovation and Technology,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Property Assessment,Property Assessment,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Sustainability,Sustainability,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Chief Admin. Officer,Chief Administrative Officer,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-City Rep,City Representative,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-City Treasurer,City Treasurer,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Commerce,Convention Center Subsidy,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Commerce,Economic Stimulus,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Commerce,Commerce,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Finance,Budget Stabilization Reserve,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Finance,Community College Subsidy,Education,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Finance,Employee Benefits,Pension and Fringe Benefits,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Finance,Hero Awards,Education,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Finance,Indemnities,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Finance,Recession Reserve,General Government,Advances & Misc.,55108000.0,25000000.0,75000000.0,75000000.0,20000000.0
-Finance,Refunds,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Finance,Disability Reg #32 Payroll,Pension and Fringe Benefits,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Finance,School District Contribution,Education,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Finance,Witness Fees,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Finance,Finance,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Inspector General,Inspector General,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Sheriff,Sheriff,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Prisons,Prisons,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Police,Police,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Procurement,Procurement,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Register of Wills,Register of Wills,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Debt Service,Debt Service,Debt Service,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Streets,Streets,Health & Sanitation,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Streets,Streets: Disposal,Health & Sanitation,Advances & Misc.,0.0,0.0,0.0,0.0,0.0
-Free Library,Free Library,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0
+dept_name,name,category_code_description,major_class_description,2020 (Adopted),2021 (Adopted),2022 (Adopted),2022 (Proposed),2023 (Proposed),2023 (Adopted)
+Art Museum,Art Museum,"Economic Development, Culture, and Recreation",Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Atwater Kent,Atwater Kent,"Economic Development, Culture, and Recreation",Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Behavioral Health,Behavioral Health,Health & Human Services,Personal Services,1534468.0,1546510.0,2980922.0,2980922.0,3554824.0,3590639.0
+Board of Ethics,Board of Ethics,General Government,Personal Services,1041630.0,915196.0,915196.0,915196.0,1100255.0,1121902.0
+Revision of Taxes,Board of Revision of Taxes,General Government,Personal Services,962864.0,987587.0,997835.0,997835.0,1030360.0,1057610.0
+City Commissioners,City Commissioners,General Government,Personal Services,6633233.0,6714174.0,8413534.0,8413534.0,10891604.0,10927174.0
+City Controller,City Controller,General Government,Personal Services,8862100.0,9045839.0,9330839.0,8955839.0,10228948.0,10285869.0
+City Council,City Council,General Government,Personal Services,15427138.0,14877138.0,15627138.0,15379138.0,15960750.0,16325560.0
+Civil Service Commission,Civil Service Commission,General Government,Personal Services,174341.0,177148.0,177148.0,177148.0,180988.0,180988.0
+Human Relations ,Human Relations Commission,Health & Human Services,Personal Services,2323714.0,2360285.0,2325040.0,2325040.0,2495189.0,2502372.0
+Human Services,Human Services,Health & Human Services,Personal Services,27646449.0,31673433.0,32182866.0,32182866.0,34348905.0,34466970.0
+Licenses & Inspections,Licenses & Inspections,General Government,Personal Services,25967209.0,23970217.0,24577968.0,24608806.0,26590298.0,26670602.0
+Parks & Rec,Parks & Rec,"Economic Development, Culture, and Recreation",Personal Services,52490935.0,46921787.0,52352786.0,52352786.0,56916061.0,61031936.0
+Planning & Development,Planning & Development,"Economic Development, Culture, and Recreation",Personal Services,5167172.0,4834959.0,4873604.0,4873604.0,5735470.0,5783913.0
+Public Health,Public Health,Health & Human Services,Personal Services,58328165.0,57654465.0,59267291.0,58752291.0,62683660.0,62755979.0
+Public Property,Public Property,General Government,Personal Services,9395654.0,10101149.0,10098527.0,10098527.0,10700937.0,12050817.0
+Public Property,SEPTA Subsidy,"Economic Development, Culture, and Recreation",Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,Space Rentals,General Government,Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,Utilities,General Government,Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Records,Records,General Government,Personal Services,3226285.0,3117312.0,3009970.0,3009970.0,3364422.0,3374335.0
+Revenue,Revenue,General Government,Personal Services,23934508.0,22648673.0,20380548.0,20380548.0,21756185.0,21927194.0
+District Attorney,District Attorney,Public Safety,Personal Services,35016343.0,30262904.0,36562904.0,36562904.0,39428794.0,40467055.0
+Fire,Fire,Public Safety,Personal Services,273966292.0,289256642.0,332992022.0,332992022.0,354272272.0,354321176.0
+First Judicial District,First Judicial District,Public Safety,Personal Services,104792068.0,105324122.0,105324122.0,104868556.0,108950101.0,111144985.0
+Board of Bldg. Stds.,L&I: Board of Building Standards,General Government,Personal Services,80366.0,82018.0,82018.0,82018.0,84116.0,84116.0
+Board of Review,L&I: Board of Review,General Government,Personal Services,163434.0,165635.0,165635.0,165635.0,170377.0,170377.0
+Labor,Labor,General Government,Personal Services,2065091.0,2395467.0,2939422.0,2939422.0,3414271.0,3460299.0
+Law,Law,General Government,Personal Services,9427335.0,9520003.0,13329167.0,14452037.0,15307139.0,15705718.0
+Managing Director,Legal Services,Public Safety,Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Managing Director,Managing Director,General Government,Personal Services,23170579.0,36119907.0,43754013.0,42224013.0,35448189.0,35167882.0
+Mayor,Mayor,General Government,Personal Services,5393827.0,5775991.0,5892600.0,5892600.0,6123607.0,6301957.0
+Mayor,Mayor: Scholarships,Education,Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Community Empowerment,Community Empowerment and Opportunity,Health & Human Services,Personal Services,90000.0,45000.0,45000.0,45000.0,177185.0,177185.0
+Mural Arts,Mural Arts,"Economic Development, Culture, and Recreation",Personal Services,638987.0,578952.0,586569.0,629992.0,598075.0,610850.0
+Arts & Culture,"Arts, Culture, and the Creative Economy","Economic Development, Culture, and Recreation",Personal Services,508300.0,0.0,0.0,0.0,0.0,0.0
+Children and Families,Children and Families,Education,Personal Services,3292180.0,418820.0,442000.0,442000.0,453946.0,463413.0
+Fleet,Vehicle Purchases/Leases,General Government,Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Fleet,Fleet,General Government,Personal Services,19416871.0,19073455.0,19260680.0,18695138.0,20510205.0,20534432.0
+Homeless Services,Homeless Services,Health & Human Services,Personal Services,9545748.0,8068689.0,9307467.0,9307467.0,9881368.0,9931274.0
+Human Resources,Human Resources,General Government,Personal Services,5555785.0,5290733.0,5223802.0,5053802.0,5753121.0,6042760.0
+Innovation and Technology,911 Services,General Government,Personal Services,1416547.0,1341547.0,1341547.0,1341547.0,1416547.0,1416547.0
+Innovation and Technology,Innovation and Technology,General Government,Personal Services,22462148.0,22822147.0,26789649.0,29657871.0,30744051.0,31377472.0
+Property Assessment,Property Assessment,General Government,Personal Services,14127682.0,12918061.0,14395213.0,14395213.0,15524777.0,15569756.0
+Sustainability,Sustainability,General Government,Personal Services,551910.0,603814.0,722621.0,722621.0,870116.0,971635.0
+Chief Admin. Officer,Chief Administrative Officer,General Government,Personal Services,4784551.0,4256565.0,5062173.0,5062173.0,6238627.0,6368435.0
+City Rep,City Representative,"Economic Development, Culture, and Recreation",Personal Services,795916.0,0.0,0.0,0.0,0.0,0.0
+City Treasurer,City Treasurer,General Government,Personal Services,1262499.0,1368170.0,1395075.0,1395075.0,1554893.0,1579598.0
+Commerce,Convention Center Subsidy,"Economic Development, Culture, and Recreation",Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Commerce,Economic Stimulus,"Economic Development, Culture, and Recreation",Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Commerce,Commerce,"Economic Development, Culture, and Recreation",Personal Services,3469881.0,2394341.0,3614341.0,2714341.0,5322555.0,5380613.0
+Finance,Budget Stabilization Reserve,General Government,Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Community College Subsidy,Education,Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Employee Benefits,Pension and Fringe Benefits,Personal Services,1411963002.0,1287159003.0,1438592740.0,1434553835.0,1603396709.0,1603509081.0
+Finance,Hero Awards,Education,Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Indemnities,General Government,Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Recession Reserve,General Government,Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Refunds,General Government,Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Disability Reg #32 Payroll,Pension and Fringe Benefits,Personal Services,2650000.0,2650000.0,2293165.0,2650000.0,2800000.0,2800000.0
+Finance,School District Contribution,Education,Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Witness Fees,Public Safety,Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Finance,General Government,Personal Services,9084313.0,10312396.0,10185891.0,9869056.0,10718490.0,10863735.0
+Inspector General,Inspector General,General Government,Personal Services,1577241.0,1472481.0,1504223.0,1504223.0,2148400.0,2192863.0
+Sheriff,Sheriff,Public Safety,Personal Services,25443537.0,25192450.0,25192450.0,25192450.0,26844230.0,28345027.0
+Prisons,Prisons,Public Safety,Personal Services,139765668.0,126599446.0,132739167.0,126635188.0,135495470.0,135537939.0
+Police,Police,Public Safety,Personal Services,718359324.0,704077967.0,704349409.0,704349409.0,752550599.0,753577996.0
+Procurement,Procurement,General Government,Personal Services,2709242.0,2436508.0,2648235.0,2648235.0,3298639.0,3404302.0
+Register of Wills,Register of Wills,Public Safety,Personal Services,4286409.0,3956193.0,3956193.0,3856193.0,4130872.0,4309771.0
+Debt Service,Debt Service,Debt Service,Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Streets,Streets,"Economic Development, Culture, and Recreation",Personal Services,90464913.0,87283619.0,90986330.0,90986330.0,122120102.0,122676329.0
+Streets,Streets: Disposal,"Economic Development, Culture, and Recreation",Personal Services,0.0,0.0,0.0,0.0,0.0,0.0
+Free Library,Free Library,"Economic Development, Culture, and Recreation",Personal Services,40633647.0,35549343.0,38171857.0,38171857.0,50220431.0,50911555.0
+Art Museum,Art Museum,"Economic Development, Culture, and Recreation",Purchase of Services,0.0,0.0,0.0,0.0,0.0,0.0
+Atwater Kent,Atwater Kent,"Economic Development, Culture, and Recreation",Purchase of Services,0.0,0.0,0.0,0.0,0.0,0.0
+Behavioral Health,Behavioral Health,Health & Human Services,Purchase of Services,14360976.0,13930892.0,20522810.0,20522810.0,23723599.0,23723599.0
+Board of Ethics,Board of Ethics,General Government,Purchase of Services,52500.0,52500.0,52500.0,52500.0,52500.0,52500.0
+Revision of Taxes,Board of Revision of Taxes,General Government,Purchase of Services,75200.0,37900.0,37900.0,37900.0,37900.0,37900.0
+City Commissioners,City Commissioners,General Government,Purchase of Services,5011061.0,5011061.0,6862101.0,6862101.0,9285101.0,15485101.0
+City Controller,City Controller,General Government,Purchase of Services,497450.0,497450.0,497450.0,497450.0,497450.0,497450.0
+City Council,City Council,General Government,Purchase of Services,1971885.0,1976885.0,2521885.0,2121885.0,2521885.0,5021885.0
+Civil Service Commission,Civil Service Commission,General Government,Purchase of Services,29500.0,29500.0,29500.0,29500.0,29500.0,29500.0
+Human Relations ,Human Relations Commission,Health & Human Services,Purchase of Services,34657.0,34657.0,34657.0,34657.0,43333.0,43333.0
+Human Services,Human Services,Health & Human Services,Purchase of Services,89248594.0,129305230.0,142585334.0,140710334.0,151445655.0,152645655.0
+Licenses & Inspections,Licenses & Inspections,General Government,Purchase of Services,14403945.0,13447002.0,13522002.0,13522002.0,13146162.0,14146162.0
+Parks & Rec,Parks & Rec,"Economic Development, Culture, and Recreation",Purchase of Services,7115490.0,4482142.0,5659542.0,5659542.0,6975582.0,7674442.0
+Planning & Development,Planning & Development,"Economic Development, Culture, and Recreation",Purchase of Services,5192113.0,3619463.0,5619463.0,3619463.0,3839463.0,21339463.0
+Public Health,Public Health,Health & Human Services,Purchase of Services,90224827.0,90506143.0,95447448.0,95447448.0,88784022.0,90784022.0
+Public Property,Public Property,General Government,Purchase of Services,31314408.0,30549657.0,35725814.0,35725814.0,37608915.0,37608915.0
+Public Property,SEPTA Subsidy,"Economic Development, Culture, and Recreation",Purchase of Services,87556000.0,84608000.0,91214000.0,91214000.0,100699000.0,100699000.0
+Public Property,Space Rentals,General Government,Purchase of Services,26278677.0,25567715.0,30631626.0,30249634.0,31124135.0,33293144.0
+Public Property,Utilities,General Government,Purchase of Services,27393339.0,25447623.0,24875748.0,24875748.0,25291034.0,32986853.0
+Records,Records,General Government,Purchase of Services,1538779.0,743265.0,758985.0,758985.0,758985.0,758985.0
+Revenue,Revenue,General Government,Purchase of Services,7755749.0,5787749.0,5787749.0,6087749.0,4106407.0,5106407.0
+District Attorney,District Attorney,Public Safety,Purchase of Services,3367172.0,2693738.0,3343738.0,3343738.0,3343738.0,3343738.0
+Fire,Fire,Public Safety,Purchase of Services,6516272.0,6724702.0,6728143.0,6728143.0,7068282.0,7068282.0
+First Judicial District,First Judicial District,Public Safety,Purchase of Services,8480039.0,8480039.0,8643039.0,8643039.0,8643039.0,8643039.0
+Board of Bldg. Stds.,L&I: Board of Building Standards,General Government,Purchase of Services,0.0,0.0,0.0,0.0,0.0,0.0
+Board of Review,L&I: Board of Review,General Government,Purchase of Services,10436.0,10436.0,10436.0,10436.0,10436.0,10436.0
+Labor,Labor,General Government,Purchase of Services,321277.0,357217.0,352817.0,352817.0,462617.0,519617.0
+Law,Law,General Government,Purchase of Services,6409034.0,5309427.0,5433427.0,4668260.0,5979915.0,5979915.0
+Managing Director,Legal Services,Public Safety,Purchase of Services,50439541.0,50104181.0,52404449.0,50938782.0,52487199.0,59844449.0
+Managing Director,Managing Director,General Government,Purchase of Services,31472162.0,31588550.0,74021183.0,44477850.0,83855209.0,90753102.0
+Mayor,Mayor,General Government,Purchase of Services,684965.0,646260.0,780260.0,780260.0,815680.0,815680.0
+Mayor,Mayor: Scholarships,Education,Purchase of Services,0.0,0.0,0.0,0.0,0.0,0.0
+Community Empowerment,Community Empowerment and Opportunity,Health & Human Services,Purchase of Services,0.0,0.0,1464000.0,0.0,1714007.0,1714007.0
+Mural Arts,Mural Arts,"Economic Development, Culture, and Recreation",Purchase of Services,1860615.0,1545610.0,2065610.0,1695610.0,1920610.0,2670610.0
+Arts & Culture,"Arts, Culture, and the Creative Economy","Economic Development, Culture, and Recreation",Purchase of Services,212014.0,0.0,0.0,0.0,0.0,0.0
+Children and Families,Children and Families,Education,Purchase of Services,42015834.0,0.0,0.0,0.0,0.0,0.0
+Fleet,Vehicle Purchases/Leases,General Government,Purchase of Services,0.0,0.0,0.0,0.0,0.0,0.0
+Fleet,Fleet,General Government,Purchase of Services,5305396.0,5353396.0,5401396.0,5401396.0,5449396.0,5449396.0
+Homeless Services,Homeless Services,Health & Human Services,Purchase of Services,50023423.0,35593350.0,45637327.0,45637327.0,58638836.0,58638836.0
+Human Resources,Human Resources,General Government,Purchase of Services,1229070.0,877570.0,1177570.0,997570.0,966067.0,1306067.0
+Innovation and Technology,911 Services,General Government,Purchase of Services,26280561.0,29159009.0,21928631.0,21928631.0,20150466.0,20150466.0
+Innovation and Technology,Innovation and Technology,General Government,Purchase of Services,42805345.0,46576598.0,48768639.0,48514689.0,53368720.0,57268720.0
+Property Assessment,Property Assessment,General Government,Purchase of Services,2403126.0,2420632.0,2026020.0,2026020.0,1926020.0,1926020.0
+Sustainability,Sustainability,General Government,Purchase of Services,393508.0,423366.0,675966.0,473366.0,271366.0,516366.0
+Chief Admin. Officer,Chief Administrative Officer,General Government,Purchase of Services,2627049.0,2050549.0,3865698.0,3865698.0,6327056.0,6427056.0
+City Rep,City Representative,"Economic Development, Culture, and Recreation",Purchase of Services,399779.0,0.0,0.0,0.0,0.0,0.0
+City Treasurer,City Treasurer,General Government,Purchase of Services,198444.0,193544.0,3323698.0,193544.0,3116468.0,3116468.0
+Commerce,Convention Center Subsidy,"Economic Development, Culture, and Recreation",Purchase of Services,15000000.0,15000000.0,15000000.0,15000000.0,15000000.0,15000000.0
+Commerce,Economic Stimulus,"Economic Development, Culture, and Recreation",Purchase of Services,7671624.0,3015000.0,6015000.0,3015000.0,13334550.0,13334550.0
+Commerce,Commerce,"Economic Development, Culture, and Recreation",Purchase of Services,5854826.0,1216153.0,10499099.0,4657989.0,8560549.0,9560549.0
+Finance,Budget Stabilization Reserve,General Government,Purchase of Services,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Community College Subsidy,Education,Purchase of Services,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Employee Benefits,Pension and Fringe Benefits,Purchase of Services,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Hero Awards,Education,Purchase of Services,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Indemnities,General Government,Purchase of Services,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Recession Reserve,General Government,Purchase of Services,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Refunds,General Government,Purchase of Services,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Disability Reg #32 Payroll,Pension and Fringe Benefits,Purchase of Services,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,School District Contribution,Education,Purchase of Services,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Witness Fees,Public Safety,Purchase of Services,171518.0,171518.0,171518.0,171518.0,171518.0,171518.0
+Finance,Finance,General Government,Purchase of Services,3029912.0,2626660.0,3475113.0,3439267.0,3964949.0,4002420.0
+Inspector General,Inspector General,General Government,Purchase of Services,97975.0,97975.0,97975.0,97975.0,97975.0,97975.0
+Sheriff,Sheriff,Public Safety,Purchase of Services,894517.0,1105267.0,1105267.0,1105267.0,1305267.0,1305267.0
+Prisons,Prisons,Public Safety,Purchase of Services,92842354.0,88351948.0,98210934.0,97960934.0,104696211.0,104696211.0
+Police,Police,Public Safety,Purchase of Services,8353063.0,10135755.0,10418373.0,10418373.0,12667116.0,12917116.0
+Procurement,Procurement,General Government,Purchase of Services,2916267.0,2283634.0,3395744.0,2795744.0,3431115.0,3431115.0
+Register of Wills,Register of Wills,Public Safety,Purchase of Services,125000.0,125000.0,185000.0,125000.0,406959.0,406959.0
+Debt Service,Debt Service,Debt Service,Purchase of Services,109222498.0,96918314.0,104560657.0,104560657.0,115087498.0,115087498.0
+Streets,Streets,"Economic Development, Culture, and Recreation",Purchase of Services,10470639.0,8050100.0,8417345.0,8417345.0,13325345.0,17725345.0
+Streets,Streets: Disposal,"Economic Development, Culture, and Recreation",Purchase of Services,48340013.0,51462580.0,59762580.0,59762580.0,55027802.0,55389886.0
+Free Library,Free Library,"Economic Development, Culture, and Recreation",Purchase of Services,2824077.0,2259262.0,2772879.0,2615022.0,3496262.0,3496262.0
+Art Museum,Art Museum,"Economic Development, Culture, and Recreation",Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Atwater Kent,Atwater Kent,"Economic Development, Culture, and Recreation",Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Behavioral Health,Behavioral Health,Health & Human Services,Materials/Equip.,0.0,0.0,43200.0,43200.0,0.0,0.0
+Board of Ethics,Board of Ethics,General Government,Materials/Equip.,7500.0,7500.0,7500.0,7500.0,7500.0,7500.0
+Revision of Taxes,Board of Revision of Taxes,General Government,Materials/Equip.,22727.0,17727.0,17727.0,17727.0,17727.0,17727.0
+City Commissioners,City Commissioners,General Government,Materials/Equip.,572617.0,572617.0,2771217.0,2771217.0,2649217.0,2649217.0
+City Controller,City Controller,General Government,Materials/Equip.,25000.0,25000.0,25000.0,25000.0,25000.0,25000.0
+City Council,City Council,General Government,Materials/Equip.,528650.0,428650.0,528650.0,528650.0,528650.0,528650.0
+Civil Service Commission,Civil Service Commission,General Government,Materials/Equip.,1094.0,1094.0,1094.0,1094.0,1094.0,1094.0
+Human Relations ,Human Relations Commission,Health & Human Services,Materials/Equip.,28031.0,28031.0,28031.0,28031.0,28031.0,28031.0
+Human Services,Human Services,Health & Human Services,Materials/Equip.,2069970.0,2111970.0,2111970.0,2111970.0,2111970.0,2111970.0
+Licenses & Inspections,Licenses & Inspections,General Government,Materials/Equip.,911397.0,834475.0,834475.0,834475.0,809475.0,809475.0
+Parks & Rec,Parks & Rec,"Economic Development, Culture, and Recreation",Materials/Equip.,2740630.0,2022225.0,2552225.0,2552225.0,2754425.0,2930025.0
+Planning & Development,Planning & Development,"Economic Development, Culture, and Recreation",Materials/Equip.,101461.0,80761.0,80761.0,80761.0,89761.0,89761.0
+Public Health,Public Health,Health & Human Services,Materials/Equip.,7519148.0,6768973.0,7366053.0,7366053.0,6746403.0,6746403.0
+Public Property,Public Property,General Government,Materials/Equip.,1338535.0,1338535.0,1338535.0,1338535.0,1338535.0,1338535.0
+Public Property,SEPTA Subsidy,"Economic Development, Culture, and Recreation",Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,Space Rentals,General Government,Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,Utilities,General Government,Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Records,Records,General Government,Materials/Equip.,143758.0,143758.0,143758.0,143758.0,143758.0,143758.0
+Revenue,Revenue,General Government,Materials/Equip.,1188976.0,774976.0,774976.0,774976.0,774976.0,774976.0
+District Attorney,District Attorney,Public Safety,Materials/Equip.,525021.0,420017.0,525017.0,525017.0,533417.0,533417.0
+Fire,Fire,Public Safety,Materials/Equip.,8831714.0,9192914.0,11275064.0,11275064.0,12445064.0,12445064.0
+First Judicial District,First Judicial District,Public Safety,Materials/Equip.,2231868.0,2231868.0,2231868.0,2231868.0,2231868.0,2231868.0
+Board of Bldg. Stds.,L&I: Board of Building Standards,General Government,Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Board of Review,L&I: Board of Review,General Government,Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Labor,Labor,General Government,Materials/Equip.,68460.0,86420.0,21420.0,21420.0,24420.0,24420.0
+Law,Law,General Government,Materials/Equip.,248676.0,184676.0,184676.0,184676.0,190676.0,190676.0
+Managing Director,Legal Services,Public Safety,Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Managing Director,Managing Director,General Government,Materials/Equip.,1136979.0,1556787.0,4509265.0,4059265.0,2418018.0,2416018.0
+Mayor,Mayor,General Government,Materials/Equip.,34841.0,41341.0,41341.0,41341.0,31341.0,31341.0
+Mayor,Mayor: Scholarships,Education,Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Community Empowerment,Community Empowerment and Opportunity,Health & Human Services,Materials/Equip.,0.0,0.0,0.0,0.0,3808.0,3808.0
+Mural Arts,Mural Arts,"Economic Development, Culture, and Recreation",Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Arts & Culture,"Arts, Culture, and the Creative Economy","Economic Development, Culture, and Recreation",Materials/Equip.,7000.0,0.0,0.0,0.0,0.0,0.0
+Children and Families,Children and Families,Education,Materials/Equip.,42000.0,0.0,0.0,0.0,0.0,0.0
+Fleet,Vehicle Purchases/Leases,General Government,Materials/Equip.,17286549.0,9797739.0,9745852.0,9307852.0,9307852.0,12507852.0
+Fleet,Fleet,General Government,Materials/Equip.,25391767.0,22376873.0,20684642.0,20684642.0,23232642.0,32257642.0
+Homeless Services,Homeless Services,Health & Human Services,Materials/Equip.,344127.0,344127.0,344127.0,344127.0,344127.0,344127.0
+Human Resources,Human Resources,General Government,Materials/Equip.,89432.0,69432.0,69432.0,69432.0,69432.0,69432.0
+Innovation and Technology,911 Services,General Government,Materials/Equip.,13537978.0,23064399.0,8064399.0,8064399.0,8064399.0,8064399.0
+Innovation and Technology,Innovation and Technology,General Government,Materials/Equip.,5931046.0,6396428.0,3229295.0,2983610.0,2986610.0,2986610.0
+Property Assessment,Property Assessment,General Government,Materials/Equip.,787600.0,762600.0,362600.0,362600.0,362600.0,362600.0
+Sustainability,Sustainability,General Government,Materials/Equip.,17840.0,1000.0,1000.0,1000.0,1000.0,1000.0
+Chief Admin. Officer,Chief Administrative Officer,General Government,Materials/Equip.,26665.0,26665.0,2016665.0,2016665.0,2082265.0,2082265.0
+City Rep,City Representative,"Economic Development, Culture, and Recreation",Materials/Equip.,54000.0,0.0,0.0,0.0,0.0,0.0
+City Treasurer,City Treasurer,General Government,Materials/Equip.,22224.0,22224.0,22224.0,22224.0,22224.0,22224.0
+Commerce,Convention Center Subsidy,"Economic Development, Culture, and Recreation",Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Commerce,Economic Stimulus,"Economic Development, Culture, and Recreation",Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Commerce,Commerce,"Economic Development, Culture, and Recreation",Materials/Equip.,26654.0,26654.0,26654.0,26654.0,62654.0,62654.0
+Finance,Budget Stabilization Reserve,General Government,Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Community College Subsidy,Education,Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Employee Benefits,Pension and Fringe Benefits,Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Hero Awards,Education,Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Indemnities,General Government,Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Recession Reserve,General Government,Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Refunds,General Government,Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Disability Reg #32 Payroll,Pension and Fringe Benefits,Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,School District Contribution,Education,Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Witness Fees,Public Safety,Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Finance,General Government,Materials/Equip.,103109.0,35616.0,35616.0,35616.0,38616.0,38616.0
+Inspector General,Inspector General,General Government,Materials/Equip.,5225.0,5225.0,5225.0,5225.0,5225.0,5225.0
+Sheriff,Sheriff,Public Safety,Materials/Equip.,708907.0,498157.0,498157.0,498157.0,848157.0,1203507.0
+Prisons,Prisons,Public Safety,Materials/Equip.,4373744.0,4016769.0,5499455.0,5499455.0,4674595.0,4674595.0
+Police,Police,Public Safety,Materials/Equip.,14452710.0,12794012.0,14579952.0,12239952.0,16549152.0,16549152.0
+Procurement,Procurement,General Government,Materials/Equip.,49054.0,40194.0,12359.0,12359.0,39359.0,39359.0
+Register of Wills,Register of Wills,Public Safety,Materials/Equip.,140236.0,140236.0,140236.0,140236.0,140236.0,140236.0
+Debt Service,Debt Service,Debt Service,Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Streets,Streets,"Economic Development, Culture, and Recreation",Materials/Equip.,7704196.0,6172885.0,14215207.0,14215207.0,21994981.0,21994981.0
+Streets,Streets: Disposal,"Economic Development, Culture, and Recreation",Materials/Equip.,0.0,0.0,0.0,0.0,0.0,0.0
+Free Library,Free Library,"Economic Development, Culture, and Recreation",Materials/Equip.,2302659.0,1842128.0,1842128.0,1842128.0,2042128.0,4042128.0
+Art Museum,Art Museum,"Economic Development, Culture, and Recreation",Contrib./Indemnities,2550000.0,2040000.0,2040000.0,2040000.0,2040000.0,2040000.0
+Atwater Kent,Atwater Kent,"Economic Development, Culture, and Recreation",Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Behavioral Health,Behavioral Health,Health & Human Services,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Board of Ethics,Board of Ethics,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Revision of Taxes,Board of Revision of Taxes,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+City Commissioners,City Commissioners,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+City Controller,City Controller,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+City Council,City Council,General Government,Contrib./Indemnities,100.0,25000100.0,100.0,100.0,100.0,100.0
+Civil Service Commission,Civil Service Commission,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Human Relations ,Human Relations Commission,Health & Human Services,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Human Services,Human Services,Health & Human Services,Contrib./Indemnities,0.0,0.0,1393638.0,1393638.0,0.0,0.0
+Licenses & Inspections,Licenses & Inspections,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Parks & Rec,Parks & Rec,"Economic Development, Culture, and Recreation",Contrib./Indemnities,2711000.0,1500000.0,2000000.0,1500000.0,1500000.0,1500000.0
+Planning & Development,Planning & Development,"Economic Development, Culture, and Recreation",Contrib./Indemnities,1350000.0,0.0,6500000.0,0.0,3000000.0,3000000.0
+Public Health,Public Health,Health & Human Services,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,Public Property,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,SEPTA Subsidy,"Economic Development, Culture, and Recreation",Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,Space Rentals,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,Utilities,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Records,Records,General Government,Contrib./Indemnities,1456.0,0.0,0.0,0.0,0.0,0.0
+Revenue,Revenue,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+District Attorney,District Attorney,Public Safety,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,Fire,Public Safety,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+First Judicial District,First Judicial District,Public Safety,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Board of Bldg. Stds.,L&I: Board of Building Standards,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Board of Review,L&I: Board of Review,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Labor,Labor,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Law,Law,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Managing Director,Legal Services,Public Safety,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Managing Director,Managing Director,General Government,Contrib./Indemnities,0.0,1350000.0,3300000.0,2500000.0,3000000.0,4300000.0
+Mayor,Mayor,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Mayor,Mayor: Scholarships,Education,Contrib./Indemnities,200000.0,100000.0,100000.0,100000.0,100000.0,100000.0
+Community Empowerment,Community Empowerment and Opportunity,Health & Human Services,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Mural Arts,Mural Arts,"Economic Development, Culture, and Recreation",Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Arts & Culture,"Arts, Culture, and the Creative Economy","Economic Development, Culture, and Recreation",Contrib./Indemnities,3370688.0,0.0,0.0,0.0,0.0,0.0
+Children and Families,Children and Families,Education,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Fleet,Vehicle Purchases/Leases,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Fleet,Fleet,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Homeless Services,Homeless Services,Health & Human Services,Contrib./Indemnities,32421.0,32421.0,32421.0,32421.0,32421.0,32421.0
+Human Resources,Human Resources,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Innovation and Technology,911 Services,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Innovation and Technology,Innovation and Technology,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Property Assessment,Property Assessment,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Sustainability,Sustainability,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Chief Admin. Officer,Chief Administrative Officer,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+City Rep,City Representative,"Economic Development, Culture, and Recreation",Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+City Treasurer,City Treasurer,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Commerce,Convention Center Subsidy,"Economic Development, Culture, and Recreation",Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Commerce,Economic Stimulus,"Economic Development, Culture, and Recreation",Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Commerce,Commerce,"Economic Development, Culture, and Recreation",Contrib./Indemnities,500000.0,0.0,500000.0,0.0,505000.0,505000.0
+Finance,Budget Stabilization Reserve,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Community College Subsidy,Education,Contrib./Indemnities,33759207.0,44110159.0,48128075.0,48128075.0,50106653.0,50106653.0
+Finance,Employee Benefits,Pension and Fringe Benefits,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Hero Awards,Education,Contrib./Indemnities,25000.0,25000.0,25000.0,25000.0,50000.0,50000.0
+Finance,Indemnities,General Government,Contrib./Indemnities,49246000.0,49246000.0,49246000.0,49246000.0,49246000.0,67246000.0
+Finance,Recession Reserve,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Refunds,General Government,Contrib./Indemnities,250000.0,250000.0,250000.0,250000.0,250000.0,250000.0
+Finance,Disability Reg #32 Payroll,Pension and Fringe Benefits,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,School District Contribution,Education,Contrib./Indemnities,222456410.0,252578558.0,255953201.0,255953201.0,269953201.0,269953201.0
+Finance,Witness Fees,Public Safety,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Finance,General Government,Contrib./Indemnities,4725000.0,1250000.0,16069700.0,1415700.0,4504000.0,7820000.0
+Inspector General,Inspector General,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Sheriff,Sheriff,Public Safety,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Prisons,Prisons,Public Safety,Contrib./Indemnities,1201757.0,1201757.0,1201757.0,1201757.0,1201757.0,1201757.0
+Police,Police,Public Safety,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Procurement,Procurement,General Government,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Register of Wills,Register of Wills,Public Safety,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Debt Service,Debt Service,Debt Service,Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Streets,Streets,"Economic Development, Culture, and Recreation",Contrib./Indemnities,53171.0,53171.0,53171.0,53171.0,53171.0,53171.0
+Streets,Streets: Disposal,"Economic Development, Culture, and Recreation",Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Free Library,Free Library,"Economic Development, Culture, and Recreation",Contrib./Indemnities,0.0,0.0,0.0,0.0,0.0,0.0
+Art Museum,Art Museum,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Atwater Kent,Atwater Kent,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Behavioral Health,Behavioral Health,Health & Human Services,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Board of Ethics,Board of Ethics,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Revision of Taxes,Board of Revision of Taxes,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+City Commissioners,City Commissioners,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+City Controller,City Controller,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+City Council,City Council,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Civil Service Commission,Civil Service Commission,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Human Relations ,Human Relations Commission,Health & Human Services,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Human Services,Human Services,Health & Human Services,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Licenses & Inspections,Licenses & Inspections,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Parks & Rec,Parks & Rec,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Planning & Development,Planning & Development,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Public Health,Public Health,Health & Human Services,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,Public Property,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,SEPTA Subsidy,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,Space Rentals,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,Utilities,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Records,Records,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Revenue,Revenue,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+District Attorney,District Attorney,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,Fire,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+First Judicial District,First Judicial District,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Board of Bldg. Stds.,L&I: Board of Building Standards,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Board of Review,L&I: Board of Review,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Labor,Labor,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Law,Law,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Managing Director,Legal Services,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Managing Director,Managing Director,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Mayor,Mayor,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Mayor,Mayor: Scholarships,Education,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Community Empowerment,Community Empowerment and Opportunity,Health & Human Services,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Mural Arts,Mural Arts,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Arts & Culture,"Arts, Culture, and the Creative Economy","Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Children and Families,Children and Families,Education,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Fleet,Vehicle Purchases/Leases,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Fleet,Fleet,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Homeless Services,Homeless Services,Health & Human Services,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Human Resources,Human Resources,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Innovation and Technology,911 Services,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Innovation and Technology,Innovation and Technology,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Property Assessment,Property Assessment,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Sustainability,Sustainability,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Chief Admin. Officer,Chief Administrative Officer,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+City Rep,City Representative,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+City Treasurer,City Treasurer,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Commerce,Convention Center Subsidy,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Commerce,Economic Stimulus,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Commerce,Commerce,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Budget Stabilization Reserve,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Community College Subsidy,Education,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Employee Benefits,Pension and Fringe Benefits,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Hero Awards,Education,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Indemnities,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Recession Reserve,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Refunds,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Disability Reg #32 Payroll,Pension and Fringe Benefits,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,School District Contribution,Education,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Witness Fees,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Finance,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Inspector General,Inspector General,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Sheriff,Sheriff,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Prisons,Prisons,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Police,Police,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Procurement,Procurement,General Government,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Register of Wills,Register of Wills,Public Safety,Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Debt Service,Debt Service,Debt Service,Debt Service,187482819.0,185714117.0,192666858.0,192666858.0,193710223.0,193710223.0
+Streets,Streets,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Streets,Streets: Disposal,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Free Library,Free Library,"Economic Development, Culture, and Recreation",Debt Service,0.0,0.0,0.0,0.0,0.0,0.0
+Art Museum,Art Museum,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Atwater Kent,Atwater Kent,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Behavioral Health,Behavioral Health,Health & Human Services,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Board of Ethics,Board of Ethics,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Revision of Taxes,Board of Revision of Taxes,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+City Commissioners,City Commissioners,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+City Controller,City Controller,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+City Council,City Council,General Government,Payments to Other Funds,100.0,100.0,100.0,100.0,100.0,100.0
+Civil Service Commission,Civil Service Commission,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Human Relations ,Human Relations Commission,Health & Human Services,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Human Services,Human Services,Health & Human Services,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Licenses & Inspections,Licenses & Inspections,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Parks & Rec,Parks & Rec,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Planning & Development,Planning & Development,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Public Health,Public Health,Health & Human Services,Payments to Other Funds,4500000.0,4423404.0,923404.0,923404.0,923404.0,923404.0
+Public Property,Public Property,General Government,Payments to Other Funds,26643000.0,28235000.0,26262470.0,26262470.0,27184004.0,27184004.0
+Public Property,SEPTA Subsidy,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,Space Rentals,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,Utilities,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Records,Records,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Revenue,Revenue,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+District Attorney,District Attorney,Public Safety,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,Fire,Public Safety,Payments to Other Funds,9235000.0,9882000.0,10071000.0,10071000.0,7055640.0,7055640.0
+First Judicial District,First Judicial District,Public Safety,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Board of Bldg. Stds.,L&I: Board of Building Standards,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Board of Review,L&I: Board of Review,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Labor,Labor,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Law,Law,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Managing Director,Legal Services,Public Safety,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Managing Director,Managing Director,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Mayor,Mayor,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Mayor,Mayor: Scholarships,Education,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Community Empowerment,Community Empowerment and Opportunity,Health & Human Services,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Mural Arts,Mural Arts,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Arts & Culture,"Arts, Culture, and the Creative Economy","Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Children and Families,Children and Families,Education,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Fleet,Vehicle Purchases/Leases,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Fleet,Fleet,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Homeless Services,Homeless Services,Health & Human Services,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Human Resources,Human Resources,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Innovation and Technology,911 Services,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Innovation and Technology,Innovation and Technology,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Property Assessment,Property Assessment,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Sustainability,Sustainability,General Government,Payments to Other Funds,250000.0,175000.0,175000.0,175000.0,175000.0,175000.0
+Chief Admin. Officer,Chief Administrative Officer,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+City Rep,City Representative,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+City Treasurer,City Treasurer,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Commerce,Convention Center Subsidy,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Commerce,Economic Stimulus,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Commerce,Commerce,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Budget Stabilization Reserve,General Government,Payments to Other Funds,34276000.0,0.0,0.0,0.0,0.0,40128000.0
+Finance,Community College Subsidy,Education,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Employee Benefits,Pension and Fringe Benefits,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Hero Awards,Education,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Indemnities,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Recession Reserve,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Refunds,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Disability Reg #32 Payroll,Pension and Fringe Benefits,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,School District Contribution,Education,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Witness Fees,Public Safety,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Finance,General Government,Payments to Other Funds,28285000.0,24500000.0,11360000.0,11360000.0,27922480.0,34066068.0
+Inspector General,Inspector General,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Sheriff,Sheriff,Public Safety,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Prisons,Prisons,Public Safety,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Police,Police,Public Safety,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,5000000.0
+Procurement,Procurement,General Government,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Register of Wills,Register of Wills,Public Safety,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Debt Service,Debt Service,Debt Service,Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Streets,Streets,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Streets,Streets: Disposal,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Free Library,Free Library,"Economic Development, Culture, and Recreation",Payments to Other Funds,0.0,0.0,0.0,0.0,0.0,0.0
+Art Museum,Art Museum,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Atwater Kent,Atwater Kent,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Behavioral Health,Behavioral Health,Health & Human Services,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Board of Ethics,Board of Ethics,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Revision of Taxes,Board of Revision of Taxes,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+City Commissioners,City Commissioners,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+City Controller,City Controller,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+City Council,City Council,General Government,Advances & Misc.,100.0,100.0,100.0,100.0,100.0,100.0
+Civil Service Commission,Civil Service Commission,General Government,Advances & Misc.,0.0,0.0,25000000.0,25000000.0,10566357.0,54000000.0
+Human Relations ,Human Relations Commission,Health & Human Services,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Human Services,Human Services,Health & Human Services,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Licenses & Inspections,Licenses & Inspections,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Parks & Rec,Parks & Rec,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Planning & Development,Planning & Development,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Public Health,Public Health,Health & Human Services,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,Public Property,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,SEPTA Subsidy,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,Space Rentals,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Public Property,Utilities,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Records,Records,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Revenue,Revenue,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+District Attorney,District Attorney,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Fire,Fire,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+First Judicial District,First Judicial District,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Board of Bldg. Stds.,L&I: Board of Building Standards,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Board of Review,L&I: Board of Review,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Labor,Labor,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Law,Law,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Managing Director,Legal Services,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Managing Director,Managing Director,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Mayor,Mayor,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Mayor,Mayor: Scholarships,Education,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Community Empowerment,Community Empowerment and Opportunity,Health & Human Services,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Mural Arts,Mural Arts,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Arts & Culture,"Arts, Culture, and the Creative Economy","Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Children and Families,Children and Families,Education,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Fleet,Vehicle Purchases/Leases,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Fleet,Fleet,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Homeless Services,Homeless Services,Health & Human Services,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Human Resources,Human Resources,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Innovation and Technology,911 Services,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Innovation and Technology,Innovation and Technology,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Property Assessment,Property Assessment,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Sustainability,Sustainability,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Chief Admin. Officer,Chief Administrative Officer,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+City Rep,City Representative,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+City Treasurer,City Treasurer,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Commerce,Convention Center Subsidy,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Commerce,Economic Stimulus,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Commerce,Commerce,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Budget Stabilization Reserve,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Community College Subsidy,Education,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Employee Benefits,Pension and Fringe Benefits,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Hero Awards,Education,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Indemnities,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Recession Reserve,General Government,Advances & Misc.,55108000.0,25000000.0,75000000.0,75000000.0,20000000.0,32000000.0
+Finance,Refunds,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Disability Reg #32 Payroll,Pension and Fringe Benefits,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,School District Contribution,Education,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Witness Fees,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Finance,Finance,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Inspector General,Inspector General,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Sheriff,Sheriff,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Prisons,Prisons,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Police,Police,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Procurement,Procurement,General Government,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Register of Wills,Register of Wills,Public Safety,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Debt Service,Debt Service,Debt Service,Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Streets,Streets,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Streets,Streets: Disposal,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0
+Free Library,Free Library,"Economic Development, Culture, and Recreation",Advances & Misc.,0.0,0.0,0.0,0.0,0.0,0.0

@@ -1,9 +1,10 @@
 import argparse
+from pathlib import Path
 
 import pandas as pd
 from billy_penn.departments import load_city_departments
 
-GITHUB = "https://raw.githubusercontent.com/PhilaController/phl-budget-data/main/src/phl_budget_data/data/historical/spending"
+GITHUB = "https://raw.githubusercontent.com/PhilaController/phl-budget-data/main/src/phl_budget_data/data/processed/spending"
 START_FISCAL_YEAR = 2020
 
 MAJOR_CLASS_DESCRIPTIONS = {
@@ -22,6 +23,16 @@ def load_data(kind):
 
     # Raw data
     df = pd.read_csv(f"{GITHUB}/budgeted-department-spending-{kind}.csv")
+
+    # Load any parsed master sheets too
+    path = Path("./data/processed/master_sheets_transformed/")
+    files = path.glob(f"*-{kind}.csv")
+    for f in files:
+        x = pd.read_csv(f, dtype={"dept_code": str, "dept_major_code": str})
+        df = pd.concat([df, x], axis=0, ignore_index=True)
+
+        # IMPORTANT: Drop duplicates
+        df = df.drop_duplicates(subset=["dept_code", "fiscal_year"], keep="first")
 
     # Merge categories
     categories = load_categories()

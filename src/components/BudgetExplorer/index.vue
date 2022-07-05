@@ -9,6 +9,7 @@
       class="mt-5"
       :width="totalWidth"
       :currentFiscalYear="currentFiscalYear"
+      :startFiscalYear="startFiscalYear"
       :comparisonFiscalYears="comparisonFiscalYears"
       :defaultComparisonFiscalYear="defaultComparisonFiscalYear"
       :budgetType="budgetType"
@@ -30,6 +31,7 @@ export default {
   components: { BudgetExplorerViz },
   props: [
     "currentFiscalYear",
+    "startFiscalYear",
     "comparisonFiscalYears",
     "defaultComparisonFiscalYear",
     "budgetType",
