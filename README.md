@@ -3,11 +3,13 @@
 The code behind the interactive visualization of Philadelphia's budget. There are visualizations for multiple
 versions of the budget:
 
-- [The Proposed FY22 Budget](https://controller.phila.gov/philadelphia-audits/the-proposed-fy22-budget/), proposed by the Mayor on April 15, 2021.
+- [The Adopted FY23 Budget](https://controller.phila.gov/philadelphia-audits/the-adopted-fy23-budget/), approved by City Council on June 23, 2022.
+- [The Proposed FY23 Budget](https://controller.phila.gov/philadelphia-audits/the-proposed-fy23-budget/), proposed by the mayor on March 31, 2022.
+- [The Proposed FY22 Budget](https://controller.phila.gov/philadelphia-audits/the-proposed-fy22-budget/), proposed by the mayor on April 15, 2021.
 - [The Adopted FY22 Budget](https://controller.phila.gov/philadelphia-audits/the-adopted-fy22-budget/), approved by City Council on June 24, 2021.
 
 
-![FY22 Spending Changes](public/FY22-Adopted.gif)
+![FY23 Spending Changes](public/FY23-Adopted.gif)
 
 ## Tools
 
