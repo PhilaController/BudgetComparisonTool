@@ -30,8 +30,8 @@
           target="blank_"
         >
           <b>FY23 Proposed Budget</b></a
-        >. Users can explore the proposed FY23 budget by comparing to the
-        adopted budgets from the past three fiscal years:
+        >. Users can explore the proposed FY23 budget by comparing to previous
+        budgets:
       </p>
       <ul class="indented">
         <li>
@@ -49,7 +49,7 @@
             class="text-link"
             target="blank_"
             href="https://www.phila.gov/media/20210709120156/budget-in-brief-FY2021-approved.pdf"
-            ><b>FY21 Adopted Budget</b></a
+            ><b>The FY21 Adopted Budget</b></a
           >: Adopted by City Council in June 2020, this budget includes spending
           cuts due to the impact of the COVID-19 pandemic; and
         </li>
@@ -58,7 +58,7 @@
             class="text-link"
             target="blank_"
             href="https://www.phila.gov/media/20201020113701/budget-in-brief-FY2020-approved.pdf"
-            ><b>FY20 Adopted Budget</b></a
+            ><b>The FY20 Adopted Budget</b></a
           >: Adopted by City Council in June 2019, this budget is the best
           representation of City spending prior to the COVID-19 pandemic.
         </li>

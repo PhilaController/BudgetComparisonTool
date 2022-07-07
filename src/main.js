@@ -95,10 +95,10 @@ add_archive_button()
 
 // add help message
 if ($(".help-message").length == 0) {
-  let helpMessage = `< p class='help-message mt-2' >
+  let helpMessage = `<p class='help-message mt-2'>
       Comments or feedback ? Please contact
-        < a href = "mailto:controller@phila.gov" > controller@phila.gov</a >.
-  </p > `;
+      <a href="mailto:controller@phila.gov"> controller@phila.gov</a>.
+  </p> `;
   $(".back-link").after(helpMessage);
 }
 
