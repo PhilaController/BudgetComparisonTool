@@ -7,6 +7,7 @@
 
         <!-- Budget Explorer -->
         <BudgetExplorer
+          class="pt-4"
           :currentFiscalYear="currentFiscalYear"
           :startFiscalYear="startFiscalYear"
           :comparisonFiscalYears="comparisonFiscalYears"

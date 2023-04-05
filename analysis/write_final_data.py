@@ -40,6 +40,10 @@ def load_data(kind):
         dept_major_code=lambda df: df["dept_code"].str.slice(0, 2)
     )
 
+    missing = df.loc[df["category_major"].isnull()]
+    if len(missing):
+        raise ValueError(f"Missing categories for: {missing['name'].tolist()}")
+
     # Merge depts
     depts = load_city_departments().rename(columns={"dept_code": "dept_major_code"})
 
@@ -63,10 +67,13 @@ def transform_data(df, fy, kind):
     if not len(df):
         return None
 
+    # Check total
+    total = df.filter(regex="^class", axis=1).sum().sum()
+
     id_cols = ["dept_name", "name", "category_code_description"]
-    return (
+    out = (
         df.groupby(id_cols)
-        .sum()
+        .sum(numeric_only=True)
         .drop(columns=["total"])
         .reset_index()
         .melt(
@@ -80,6 +87,13 @@ def transform_data(df, fy, kind):
             )
         )
     )
+
+    total2 = out[f"{fy} ({kind})"].sum()
+    diff = total - total2
+    if diff > 0:
+        raise ValueError("Lost some line items, totals don't match!")
+
+    return out
 
 
 def main(current_fiscal_year, kind):

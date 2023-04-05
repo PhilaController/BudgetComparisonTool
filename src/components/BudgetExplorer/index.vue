@@ -2,7 +2,9 @@
   <!-- Outside wrapper -->
   <div class="budget-explorer-container">
     <!-- User Toolbar -->
-    <h2 class="app-title d-flex justify-content-center">Budget Explorer</h2>
+    <h2 class="app-title d-flex justify-content-center pb-8">
+      Budget Explorer
+    </h2>
 
     <!-- Budget Explorer Viz -->
     <BudgetExplorerViz
@@ -54,7 +56,7 @@ export default {
 
 <style>
 .app-title {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 2.5rem;
 }
 </style>

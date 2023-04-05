@@ -1,16 +1,15 @@
 <template>
   <div class="home-page">
-    <div class="intro text-left ml-3 mr-3">
+    <div class="intro text-left ml-3 mr-3 pb-6">
       <p>
-        On March 31, 2022, Mayor Kenney proposed his General Fund budget for
-        fiscal year 2023 (FY23) as part of the City’s annual Five Year Financial
-        Plan. The proposed budget totals $5.6 billion in spending and includes
-        an overall increase in spending of $343 million relative to the adopted
-        FY22 budget. With the COVID-19 pandemic still impacting the local
-        economy and tax revenue totals well below pre-pandemic forecasts, this
-        increase in spending would not have been possible without $1.4 billion
-        in federal relief from the American Rescue Plan. The mayor's budget
-        proposes using $335 million of these federal funds during FY23.
+        On March 2, 2023, Mayor Kenney proposed his General Fund budget for
+        fiscal year 2024 (FY24) as part of the City’s annual Five Year Financial
+        Plan. The proposed budget totals $6.1 billion in spending and includes
+        an overall increase in spending of $260 million relative to the adopted
+        FY23 budget. In the wake of the COVID-19 pandemic, the City's spending
+        continues to increase, supported by $1.4 billion in federal relief from
+        the American Rescue Plan. The mayor's budget proposes using $391 million
+        of these federal funds during FY24.
       </p>
       <p>
         To better understand the mayor's proposed budget, the City Controller’s
@@ -20,29 +19,35 @@
         alike, bringing necessary transparency to the City’s budgeting process.
       </p>
 
-      <h2 class="mb-3">About this tool</h2>
+      <h3 class="mb-3 mt-8">About this tool</h3>
 
       <p>
         The visualization includes budgeted spending data for the
         <a
           class="text-link"
-          href="https://www.phila.gov/media/20220331104852/Mayors-Operating-Budget-in-Brief-for-FY2023-Proposed-to-the-Council-in-March-2022.pdf"
+          href="https://www.phila.gov/media/20230301185111/budget-in-brief-FY2024-proposed.pdf"
           target="blank_"
         >
-          <b>FY23 Proposed Budget</b></a
-        >. Users can explore the proposed FY23 budget by comparing to previous
-        budgets:
+          <b>FY24 Proposed Budget</b></a
+        >. Users can explore the proposed FY24 budget by comparing to previous
+        budgets from fiscal years 2020 through 2023.
       </p>
-      <ul class="indented">
+      <!-- <ul class="indented">
+        <li>
+          <a
+            href="https://www.phila.gov/media/20220712100413/Mayors-Operating-Budget-in-Brief-for-FY2023-as-Approved-by-Council-June-2022.pdf"
+            class="text-link"
+            targert="blank_"
+            ><b>The FY23 Adopted Budget</b></a
+          >, as adopted by City Council in June 2022;
+        </li>
         <li>
           <a
             href="https://www.phila.gov/media/20210709120158/budget-in-brief-FY2022-approved.pdf"
             class="text-link"
             targert="blank_"
             ><b>The FY22 Adopted Budget</b></a
-          >: Adopted by City Council in June 2021, this budget includes overall
-          spending increases due to the federal relief from the American Rescue
-          Plan;
+          >, as adopted by City Council in June 2021;
         </li>
         <li>
           <a
@@ -50,8 +55,7 @@
             target="blank_"
             href="https://www.phila.gov/media/20210709120156/budget-in-brief-FY2021-approved.pdf"
             ><b>The FY21 Adopted Budget</b></a
-          >: Adopted by City Council in June 2020, this budget includes spending
-          cuts due to the impact of the COVID-19 pandemic; and
+          >, as adopted by City Council in June 2020, and;
         </li>
         <li>
           <a
@@ -59,10 +63,9 @@
             target="blank_"
             href="https://www.phila.gov/media/20201020113701/budget-in-brief-FY2020-approved.pdf"
             ><b>The FY20 Adopted Budget</b></a
-          >: Adopted by City Council in June 2019, this budget is the best
-          representation of City spending prior to the COVID-19 pandemic.
+          >, as adopted by City Council in June 2019;
         </li>
-      </ul>
+      </ul> -->
       <p>
         Spending changes are broken down by City department as well as the
         "major class" associated with each type of spending. The City uses six

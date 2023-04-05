@@ -68,7 +68,9 @@ def transform_data(df, start_year):
 
     # Merge dept info in
     crosswalk = crosswalk.merge(
-        depts, on="dept_code", how="left", validate="1:1"
+        depts,
+        on="dept_code",
+        how="left",
     ).assign(dept_major_code=lambda df: df.dept_code.str.slice(0, 2))
 
     # Merge crosswalk
@@ -104,9 +106,12 @@ def transform_data(df, start_year):
         "total",
     ]
 
-    # Remove
-    remove = ["55-L", "35-HTF", "MDO-CP"]
-    for dept_code in remove:
+    # Remove these
+    # NOTE: this is done because some depts are broken out in the master sheets
+    # but are not broken out in budget-in-brief. So, in order to compare to previous
+    # year budget in briefs, we combine into main category
+    NOT_BROKEN_OUT = ["55-L", "35-HTF"]
+    for dept_code in NOT_BROKEN_OUT:
 
         sel = df["dept_code"] == dept_code
         if sel.sum():
@@ -117,6 +122,14 @@ def transform_data(df, start_year):
 
     df = df.reset_index(drop=True)
     assert df["total"].sum() == total
+
+    # Check missing
+    missing = df.loc[df["dept_code"].isnull()]
+    if len(missing):
+        raise ValueError(
+            f"Need to update 'master-sheet-crosswalk.xlsx'; Missing dept. info for: {missing['dept_name_raw'].tolist()}"
+        )
+
     return df
 
 

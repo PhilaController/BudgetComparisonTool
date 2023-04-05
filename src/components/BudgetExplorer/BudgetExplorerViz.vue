@@ -2,7 +2,7 @@
   <div>
     <!-- Visualization -->
     <div>
-      <div class="viz-guide d-flex justify-content-around">
+      <div class="viz-guide d-flex justify-content-around pb-8">
         <Legend
           :colorScale="fillColorScale"
           :radiusScale="radiusScale"
@@ -21,15 +21,7 @@
 
       <!-- The total change -->
       <div
-        class="
-          total-change
-          text-center
-          mt-5
-          pb-3
-          d-flex
-          justify-content-center
-          flex-column
-        "
+        class="total-change text-center mt-5 pb-3 d-flex justify-content-center flex-column"
       >
         <div>Total Spending Change:</div>
         <div class="total-change-number">
@@ -130,10 +122,13 @@ export default {
       tooltip: null,
       splitView: false, // is the viewing mode one big circle or split
       addAnnotations: false, // arrows/labels showing cuts/increases?,
-      sortColumn: "percent_diff",
       sortOrder: "desc",
+      sortColumn: null,
       collapsableColumn: true,
     };
+  },
+  created() {
+    this.sortColumn = `${this.currentFiscalYear} (${this.budgetType})`;
   },
   mounted() {
     this.$nextTick(() => {
@@ -479,8 +474,8 @@ export default {
 
       row =
         row +
-        `<th class="vgt-row-header vgt-right-align">${formatFn(current)}</th>
-        <th class="vgt-row-header vgt-right-align">${formatFn(comparison)}</th>
+        `<th class="vgt-row-header vgt-right-align">${formatFn(comparison)}</th>
+        <th class="vgt-row-header vgt-right-align">${formatFn(current)}</th>
         <th class="vgt-row-header vgt-right-align">${netChangeFormatFn(
           diff
         )}</th>
@@ -533,7 +528,7 @@ export default {
     },
     onSortChange(params) {
       $(".summary-row").remove();
-
+      console.log(params);
       this.sortColumn = params[0].field;
       this.sortOrder = params[0].type;
 
@@ -1186,7 +1181,6 @@ export default {
   font-weight: 500;
 }
 .viz-guide {
-  padding-bottom: 50px !important;
   border-bottom: 2px solid #deedfc;
 }
 .my-green {
