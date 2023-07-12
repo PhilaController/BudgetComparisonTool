@@ -1,6 +1,10 @@
 [
   {
     "fiscalYear": "2024",
+    "kind": "adopted"
+  },
+  {
+    "fiscalYear": "2024",
     "kind": "proposed"
   },
   {
@@ -18,5 +22,6 @@
   {
     "fiscalYear": "2022",
     "kind": "proposed"
-  }
+  },
+  
 ]
